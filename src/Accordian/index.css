@@ -7,7 +7,8 @@
 :root{
     font-size : 62.5%;
     font-family: "Open Sans", sans-serif;
-    --primary : #2ecc71;
+    /* --primary : #ffda79; */
+    --primary : tomato;
     --white : white;
 }
 
@@ -141,9 +142,9 @@ h1 , h2 , h3{
     /* border : 2px solid red; */
     border-radius: 1rem;
     /* color : var(--white); */
-    color : black;
+    color : var(--white);
     /* background-color: rgba(137, 43, 226, 0.361); */
-    background-color: #ffda79;
+    background-color: var(--primary);
     padding: 2em 1em;
     margin-top : -1rem;
     font-weight : 400;
