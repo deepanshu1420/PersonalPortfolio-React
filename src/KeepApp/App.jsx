@@ -14,13 +14,15 @@ function App(){
         tl.from(".logo" , {
             y : 20,
             opacity : 0,
-            duration : .8
+            duration : .8,
+            delay : .8
         })
 
         tl.from(".title" , {
             opacity : 0,
             duration : .8,
-            scaleX : 0,
+            y : 20
+            
 
         })
 
@@ -40,7 +42,7 @@ function App(){
     }
     return(
         <>
-            <h1 className='container md-heading logo fw-500'>Google <span>Keep App</span></h1>
+            <h1 className='container md-heading logo fw-700'>Google <span>Keep App</span></h1>
             <InputBox func={addObj}/>
             {
                 bag.length > 0 ? <div className="father container">

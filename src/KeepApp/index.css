@@ -7,9 +7,9 @@
 :root{
     font-size : 62.5%;
     font-family: "Open Sans", sans-serif;
-    /* --primary : #ffda79; */
-    --primary : tomato;
+    --primary : #2ecc71;
     --white : white;
+    --black : #2c3e50;
 }
 
 
@@ -83,10 +83,11 @@ span{
     width : 100%;
     min-height : 100vh;
     padding-bottom: 5rem;
-    background-color: rgba(128, 128, 128, 0.201);
+    background-color: rgba(128, 128, 128, 0.067);
 }
 .logo{
     padding : 1em 0;
+    color : rgba(0, 0, 0, 0.649);
 }
 .input-div{
     /* border : 2px solid red; */
@@ -114,7 +115,7 @@ input , textarea{
     outline: none;
     display: block;
     width : 50%;
-    color : white;
+    color : var(--white);
     text-transform: capitalize;
 }
 input{
@@ -128,11 +129,11 @@ input{
     font-family: "Open Sans", sans-serif;
     background-color: rgba(0, 0, 0, 0.649);
     font-size: 2rem;
-    color : white;
+    color : var(--white);
 }
 ::placeholder{
     /* color : black; */
-    color : white;
+    color : var(--white);
     font-weight: 300;
 }
 textarea{
@@ -148,7 +149,7 @@ textarea{
     font-weight : 300;
     text-transform: capitalize;
     background-color: rgba(0, 0, 0, 0.649);
-    color : white;
+    color : var(--white);
 }
 .input-area-box{
     position : relative;
@@ -188,7 +189,7 @@ textarea{
     width : 36rem;
     height : 18rem;
     padding: 1em 1.5em;
-    background-color: white;
+    background-color: var(--white);
     border-radius: 1rem;
     text-transform: capitalize;
 }
