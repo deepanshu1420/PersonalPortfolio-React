@@ -5,7 +5,7 @@ const Form = () => {
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <h1 className="text-center fw-bold fs-3 mt-4">Contact <span>Us</span></h1>
-                        <p className="text-center mt-2 fw-lighter">Lorem ipsumdolor sit amet consectetur adipisicing elit. Corrupti ducimus inventore sit dolorum nihil consequatur?</p>
+                        <p className="text-center mt-2 fw-lighter sm-text">Lorem ipsumdolor sit amet consectetur adipisicing elit. Corrupti ducimus inventore sit dolorum nihil consequatur?</p>
                         <div className="row mt-4">
                             <div className="col-12 mx-auto col-md-6 col-xl-6">
                                 <form action="">
@@ -32,7 +32,7 @@ const Form = () => {
                                     </div>
                                     <div className="row my-4">
                                         <div className="col-12">
-                                        <button type="button" class="btn fw-light text-capitalize btn-primary btn-outline-primary">Submit my response</button>
+                                        <button type="button" class="btn sm-text fw-light text-capitalize btn-primary btn-outline-primary">Submit my response</button>
                                         </div>
                                     </div>
                                 </form>
