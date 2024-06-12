@@ -27,7 +27,7 @@ const Home = () => {
                 </section>
 
                 <div className="para">
-                    <h1 className='fw-bold fs-1 mb-5 px-3 px-lg-0'>We deliver top notch SaaS .Every <span className='fw-bolder'>company needs</span> content marketing to grow organically—and this also holds true for brands offering <span className='fw-bolder'>SaaS</span> products. The SaaS and <span className='fw-bolder'>tech sectors</span> are unique in their nature.</h1>
+                    <h1 className='fw-normal fs-1 mb-5 px-3 px-lg-0'>We deliver top notch SaaS .Every <span className='fw-bolder'>company needs</span> content marketing to grow organically—and this also holds true for brands offering <span className='fw-bolder'>SaaS</span> products. The SaaS and <span className='fw-bolder'>tech sectors</span> are unique in their nature.</h1>
                 </div>
             </div>
         </>
