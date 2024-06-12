@@ -5,13 +5,13 @@ const Form = () => {
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <h1 className="text-center fw-bold fs-3 mt-4">Contact <span>Us</span></h1>
-                        <p className="text-center mt-2 fw-lighter sm-text">Lorem ipsumdolor sit amet consectetur adipisicing elit. Corrupti ducimus inventore sit dolorum nihil consequatur?</p>
+                        <p className="text-center mt-2 fw-lighter sm-text">Reach to us for more improvement on this UI design .</p>
                         <div className="row mt-4">
                             <div className="col-12 mx-auto col-md-6 col-xl-6">
                                 <form action="">
                                     <div class="mb-4">
                                         <label for="parth kapoor" class="form-label">Name</label>
-                                        <input type="email" class="form-control" id="parth kapoor" placeholder="parth kapoor" />
+                                        <input type="text" class="form-control" id="parth kapoor" placeholder="parth kapoor" />
                                     </div>
                                     
                                     <div class="mb-4">
