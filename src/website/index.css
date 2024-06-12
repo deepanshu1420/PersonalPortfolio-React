@@ -10,6 +10,7 @@
     --bg-gray : white;
     --black : #3d3d3d;
     --white : white;
+    --gray : rgba(128, 128, 128, 0.697);
     font-family: "Open Sans", sans-serif;
 }
 #root{
@@ -46,7 +47,7 @@ span{
 
 .header{
     /* border : 2px solid red; */
-    height : 70vh;
+    height : 80vh;
     overflow: hidden;
 }
 .desc{
@@ -65,6 +66,33 @@ span{
 
 .para h1{
     line-height: 3.5rem;
+}
+.is-active{
+    color : var(--primary)!important;
+    /* font-weight : 700; */
+}
+.special{
+    color : var(--black)!important;
+}
+.not-active{
+    color : var(--black)!important;
+}
+.temp{
+    font-size : 3rem!important;
+}
+.name{
+    /* border : 2px solid red; */
+}
+
+.my-logo{
+    /* border : 2px solid red; */
+    border-radius: 2rem;
+    padding: .09em .8em;
+    background-color: var(--primary);
+    color : var(--white);
+}
+.lg-heading{
+    font-size : 2.8rem!important;
 }
 @media (max-width : 786px){
     .header{
