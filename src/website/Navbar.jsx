@@ -17,7 +17,10 @@ function Navbar() {
                   <NavLink className="nav-link" aria-current="page" to="/react-1">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/react-1/form">Form</NavLink>
+                  <NavLink className="nav-link" aria-current="page" to="/react-1/weather">Check Weather</NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/react-1/form">Contact Us</NavLink>
                 </li>
 
               </ul>

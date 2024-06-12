@@ -1,6 +1,7 @@
 import Home from "./Home";
 import Form from "./Form";
 import Navbar from "./Navbar";
+import WeatherApp from "./WeatherApp";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import './index.css';
@@ -39,6 +40,7 @@ function App(){
             <Routes>
                 <Route exact path="/react-1" element={<Home/>}/>
                 <Route exact path="/react-1/form" element={<Form/>}/>
+                <Route exact path="/react-1/weather" element={<WeatherApp/>}/>
                 <Route path="*" element={<Home/>}/>
             </Routes>
         </>

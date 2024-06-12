@@ -46,7 +46,7 @@ span{
 
 .header{
     /* border : 2px solid red; */
-    height : 75vh;
+    height : 70vh;
     overflow: hidden;
 }
 .desc{
@@ -63,6 +63,9 @@ span{
     object-fit: contain;
 }
 
+.para h1{
+    line-height: 3.5rem;
+}
 @media (max-width : 786px){
     .header{
         height : auto;
@@ -70,6 +73,6 @@ span{
 
     .temp-2{
         /* height : 20rem; */
-        padding: 2rem;
+        padding: 1.8rem!important;
     }
 }
