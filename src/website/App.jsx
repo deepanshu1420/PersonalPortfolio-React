@@ -12,12 +12,7 @@ function App(){
 
     useGSAP(()=>{
         const tl = gsap.timeline();
-        gsap.from("#my-name" , {
-            
-            delay : 1,
-            duration : .8,
-            opacity : 0
-        })
+      
 
         tl.from(".my-img-1" , {
             scale : 0,

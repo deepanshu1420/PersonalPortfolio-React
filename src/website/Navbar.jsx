@@ -1,12 +1,28 @@
 import { NavLink } from 'react-router-dom';
+
+import { useEffect, useRef } from "react";
+import Typed from "typed.js";
 function Navbar() {
+  const el = useRef(null);
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ["Developer", "Writer" , "Coder" , "Player"],
+      typeSpeed: 50,
+      loop: true,
+      loopCount: Infinity,
+      cursorChar: "|"
+    });
+    return () => {
+      typed.destroy();
+    };
+  }, []);
   return (
     <>
       <div className="container">
         <nav className="navbar nav-bg navbar-expand-lg navbar-light bg-light py-4">
           <div className="container-fluid">
             <h1 className='fs-4 fw-bold'>
-              <NavLink className="navbar-brand" to="/react-1">Parth <span id="my-name" className='my-logo'>Kapoor</span></NavLink>
+              <NavLink className="navbar-brand" to="/react-1">Parth <span ref={el} id="my-name" className='my-logo'></span></NavLink>
             </h1>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
