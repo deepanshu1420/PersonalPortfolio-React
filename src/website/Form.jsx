@@ -20,7 +20,7 @@ const Form = () => {
                                     </div>
                                     <div class="mb-4">
                                         <label for="residence" class="form-label">Residence</label>
-                                        <input type="email" class="form-control" id="residence" placeholder="your location" />
+                                        <input type="text" class="form-control" id="residence" placeholder="your location" />
                                     </div>
                                     <div class="mb-4">
                                         <label for="number" class="form-label">Phone Number</label>

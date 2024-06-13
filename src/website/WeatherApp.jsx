@@ -43,7 +43,7 @@ function WeatherApp() {
                                     <div class="mb-3">
                                         <label for="data" className="mb-4 form-label fw-bolder">Enter the name of the City OR Country</label>
                                         <input
-                                            type="email"
+                                            type="text"
                                             className="form-control"
                                             id="data"
                                             placeholder="Eg.Canada"

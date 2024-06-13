@@ -17,7 +17,7 @@ function App(){
 
         tl.from(".my-img-1" , {
             scale : 0,
-            delay : 1,
+            delay : .5,
             duration : .4
         })
 
