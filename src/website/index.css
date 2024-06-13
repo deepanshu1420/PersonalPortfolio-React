@@ -32,7 +32,7 @@ a{
 .nav-bg{
     background-color: var(--white)!important;
 }
-.nav-bg ul{
+.nav-bg ul.navbar-nav{
     display: flex;
     gap : .5rem;
 }
@@ -52,6 +52,7 @@ span{
     /* border : 2px solid red; */
     height : 80vh;
     overflow: hidden;
+    /* z-index : 10; */
 }
 .desc{
     line-height: 28px;
@@ -111,6 +112,21 @@ span{
     z-index : -1;
 }
 
+.dropdown{
+    z-index : 15!important; 
+}
+.dropdown .dropdown-menu{
+    z-index : 15!important;
+    /* background-color: red; */
+    padding: 0em 1em;
+    width : 15rem;
+    border : 1px solid var(--primary);
+}
+
+.dropdown-menu li{
+    margin: 1rem 0;
+    /* border: 2px solid red; */
+}
 /* ##################### todo page ################# */
 
 .input-box{
@@ -123,7 +139,7 @@ span{
 .input-box button{
     position : absolute;
     right : 1rem;
-    top : 73%;
+    top : 18%;
     transform: translateY(-50%);
 }
 .input-btn{
@@ -149,12 +165,17 @@ span{
 
 .input-check-todo{
     /* border : 2px solid red; */
-    background-color: var(--white);
+    /* background-color: var(--white);
     position : sticky;
     top : 4.2rem;
-    z-index : 5;
+    z-index : 0; */
 }
-
+.todo .input-box{
+    z-index : -1;
+}
+/* .todo-father .card{
+    z-index : 25;
+} */
 @media (max-width : 786px){
     .header{
         height : auto;

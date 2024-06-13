@@ -9,17 +9,39 @@ function TodoApp() {
         updateObj(e.target.value);
     }
     function addData(){
+        if(data.length > 30) {
+            alert("To big task to handle.");
+            return;
+        }
         updateBag([...bag , data]);
         updateObj("");
     }
-    function editItemFunc(id){
-        // alert(bag[id]);
-        updateBag([...bag , data]);
+    function editItemFunc(){
+        
+        if(data.length > 30) {
+            alert("To big task to handle.");
+            return;
+        }
+
+        updateBag(prev=>{
+            return prev.map((ele , id)=>{
+                if(id === key){
+                    return data;
+                }else{
+                    return ele;
+                }
+            })
+        })
+
         updateSwitchBtn(false);
         updateObj("");
     }
     function deleteItem(id){
-       alert(bag.length);
+       updateBag(prev=>{
+        return prev.filter((ele , key)=>{
+            return key !== id;
+        })
+       });
     }
 
     function editItem(id){
@@ -30,7 +52,7 @@ function TodoApp() {
     }
     return (
         <>
-            <div className="container">
+            <div className="container todo">
                 <div className="input-check-todo">
                     <h1 className="text-center mt-5 fw-bold fs-3">Todo List with <span>Edit Feature</span></h1>
                     <p className="fw-light text-center">New and Updated Version of todo App is available now .</p>
@@ -58,7 +80,7 @@ function TodoApp() {
 
                     </div>
                 </div>
-                <div className="row">
+                <div className="row todo-father">
                     <div className="col-10 col-lg-8 mx-auto">
                         {
                             bag.length ? <div className="father">

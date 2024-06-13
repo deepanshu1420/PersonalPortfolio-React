@@ -40,9 +40,23 @@ function Navbar() {
                   <li className="nav-item">
                     <NavLink className={({ isActive }) => isActive ? " nav-link is-active" : "nav-link not-active "} to="/react-1/todo">Todo App</NavLink>
                   </li>
+
                   <li className="nav-item">
                     <NavLink className={({ isActive }) => isActive ? " nav-link is-active" : " nav-link not-active"} to="/react-1/form">Contact Us</NavLink>
                   </li>
+                  <li class="nav-item dropdown">
+                    <NavLink to="*" className={({ isActive }) => isActive ? "nav-link dropdown-toggle is-active" : "nav-link dropdown-toggle not-active"} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      More Projects
+                    </NavLink>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><NavLink class="dropdown-item" to="/react-1/foodcorner">Food Corner</NavLink></li>
+                      <li><NavLink class="dropdown-item" to="/react-1">Under Development</NavLink></li>
+                      
+                    </ul>
+                  </li>
+
+
+
 
                 </ul>
 
