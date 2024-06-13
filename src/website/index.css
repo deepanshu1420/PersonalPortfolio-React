@@ -165,13 +165,14 @@ span{
 
 .input-check-todo{
     /* border : 2px solid red; */
-    /* background-color: var(--white);
+     /* background-color: var(--white); */
+   
     position : sticky;
     top : 4.2rem;
-    z-index : 0; */
+    z-index : 0; 
 }
 .todo .input-box{
-    z-index : -1;
+    z-index : 5;
 }
 /* .todo-father .card{
     z-index : 25;
