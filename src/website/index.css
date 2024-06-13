@@ -23,6 +23,9 @@ a{
     outline: none;
     color : var(--black);
 }
+.white{
+    color : var(--white)!important;
+}
 .sm-text{
     font-size : 15px;
 }
@@ -107,6 +110,51 @@ span{
     /* border : 2px solid red; */
     z-index : -1;
 }
+
+/* ##################### todo page ################# */
+
+.input-box{
+    /* border : 2px solid red; */
+    position : relative;
+    z-index : 1;
+    
+}
+
+.input-box button{
+    position : absolute;
+    right : 1rem;
+    top : 73%;
+    transform: translateY(-50%);
+}
+.input-btn{
+    /* border : 2px solid red; */
+    padding : .1em 2em;
+}
+
+.todo-card{
+    /* border : 2px solid red; */
+   
+    background-color: var(--primary);
+    padding: .8em 1em;
+    border-radius: .5em;
+    
+
+}
+.father{
+    background-color: var(--white)!important;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.input-check-todo{
+    /* border : 2px solid red; */
+    background-color: var(--white);
+    position : sticky;
+    top : 4.2rem;
+    z-index : 5;
+}
+
 @media (max-width : 786px){
     .header{
         height : auto;

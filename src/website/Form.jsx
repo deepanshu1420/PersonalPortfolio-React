@@ -1,4 +1,7 @@
 const Form = () => {
+    function submitData(e){
+        e.preventDefault();
+    }
     return (
         <>
             <div className="container-fluid">
@@ -8,7 +11,7 @@ const Form = () => {
                         <p className="text-center mt-2 fw-lighter sm-text">Reach to us for more improvement on this UI design .</p>
                         <div className="row mt-4">
                             <div className="col-12 mx-auto col-md-6 col-xl-6">
-                                <form action="">
+                                <form action="" onSubmit={submitData}>
                                     <div class="mb-4">
                                         <label for="parth kapoor" class="form-label">Name</label>
                                         <input type="text" class="form-control" id="parth kapoor" placeholder="parth kapoor" />
