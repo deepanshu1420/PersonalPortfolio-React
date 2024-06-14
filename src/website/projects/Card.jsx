@@ -14,7 +14,7 @@ function Card(props) {
         <>
 
             <div className="col-6 col-lg-3 col-md-4">
-                <div className="food-card my-1 my-lg-5">
+                <div className="food-card my-2 my-lg-5">
                     <div className="img-box-food">
                         <img src={props.img} className="img-fluid" alt="later onn"/>
                     </div>

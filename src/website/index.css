@@ -225,6 +225,9 @@ span{
     /* border : 2px solid red; */
     border-radius: .5rem;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.193);
+    /* width : auto; */
+    /* margin: 0!important; */
+    /* margin : 1rem -5rem!important; */
 }
 
 .food-card .img-box-food{
@@ -291,6 +294,9 @@ span{
     .para{
         /* border : 2px solid red; */
         /* line-height: 20rem!important; */
+    }
+    .food-card .img-box-food{
+        height : 20vh;
     }
 }
 @keyframes scroll{
