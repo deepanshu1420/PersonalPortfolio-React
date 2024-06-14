@@ -30,6 +30,12 @@ const Home = () => {
                     <h1 className='fw-normal fs-1 mb-5 px-3 px-lg-0'>We deliver top notch SaaS .Every <span className='fw-bolder'>company needs</span> content marketing to grow organically—and this also holds true for brands offering <span className='fw-bolder'>SaaS</span> products. The SaaS and <span className='fw-bolder'>tech sectors</span> are unique in their nature.</h1>
                 </div>
             </div>
+
+            <div className="animated-text">
+                <h1 className='fw-lighter lg-text'>Web Developers are the <spa className="text-style fw-lighter">fantastic species</spa> on Earth .</h1>
+                <h1 className='fw-lighter lg-text'>Web Developers are the <spa className="text-style fw-lighter">fantastic species</spa> on Earth .</h1>
+                {/* <h1 className='fs-1 fw-lighter lg-text'>Web Developer are the <spa className="text-style fw-normal">fantastic species</spa> on Earth .</h1> */}
+            </div>
         </>
     );
 }

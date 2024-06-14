@@ -6,7 +6,7 @@ function Navbar() {
   const el = useRef(null);
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Developer", "Writer", "Coder", "Player"],
+      strings: ["Developer", "Writer", "Programmer" , "Coder", "Player"],
       typeSpeed: 50,
       loop: true,
       loopCount: Infinity,
@@ -49,7 +49,7 @@ function Navbar() {
                       More Projects
                     </NavLink>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><NavLink class="dropdown-item" to="/react-1/foodcorner">Food Corner</NavLink></li>
+                      <li><NavLink class="dropdown-item" to="/react-1/projects/foodcorner">Food Corner</NavLink></li>
                       <li><NavLink class="dropdown-item" to="/react-1">Under Development</NavLink></li>
                       
                     </ul>
