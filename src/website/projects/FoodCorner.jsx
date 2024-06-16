@@ -34,7 +34,7 @@ function FoodCorner() {
                             <div className="row">
                                 {
                                     itemBag.map((obj , id)=>{
-                                        return <Card key={obj.id} title={obj.title} desc={obj.desc} price={obj.price} imgSrc={obj.imgSrc} newArrival={obj.newArrival}/>
+                                        return <Card key={obj.id} uniqueKey={obj.id} title={obj.title} desc={obj.desc} price={obj.price} imgSrc={obj.imgSrc} newArrival={obj.newArrival}/>
                                     })
                                 }
                             </div>

@@ -2,6 +2,7 @@ import Home from "./Home";
 import Form from "./Form";
 import Navbar from "./Navbar";
 import TodoApp from "./TodoApp";
+import Page from "./projects/Page";
 import WeatherApp from "./WeatherApp";
 import FoodCorner from "./projects/FoodCorner";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -39,6 +40,7 @@ function App(){
                 <Route exact path="/react-1/form" element={<Form/>}/>
                 <Route exact path="/react-1/todo" element={<TodoApp/>}/>
                 <Route exact path="/react-1/projects/foodcorner" element={<FoodCorner/>}/>
+                <Route exact path="/react-1/projects/foodcorner/:id" element={<Page/>}/>
                 <Route exact path="/react-1/weather" element={<WeatherApp/>}/>
                 <Route path="*" element={<Home/>}/>
             </Routes>

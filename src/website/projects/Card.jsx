@@ -1,5 +1,7 @@
+import { NavLink} from 'react-router-dom';
 function Card(props) {
-    const { title, desc, imgSrc, price  , newArrival} = props;
+    const { title, desc, imgSrc, price, newArrival , uniqueKey} = props;
+    
     function getRandom() {
         let num = Math.floor(Math.random() * 6);
         if (num === 0) num = 3;
@@ -11,9 +13,7 @@ function Card(props) {
         return bag;
     }
 
-    function trigger(){
-        alert("under developmet , baddi jaldi hai tujhe , hai ? ")
-    }
+
     return (
 
         <>
@@ -40,7 +40,9 @@ function Card(props) {
                                 newArrival === true ? <p className="ex-sm-text fw-light my-0 py-0 new-item">new</p> : ""
                             }
                         </div>
-                        <button className="btn btn-primary ex-sm-text text-capitalize food-btn mt-3 fw-lighter" onClick={trigger}>more details</button>
+                        <NavLink exact to={`/react-1/projects/foodcorner/${uniqueKey}`}>
+                            <button className="btn btn-primary ex-sm-text text-capitalize food-btn mt-3 fw-lighter">more details</button>
+                        </NavLink>
                     </div>
                 </div>
             </div>
