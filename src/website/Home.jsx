@@ -31,10 +31,10 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="animated-text">
-                <h1 className='fw-lighter lg-text'>Web Developers are the <spa className="text-style fw-lighter">fantastic species</spa> on Earth .</h1>
-                <h1 className='fw-lighter lg-text'>Web Developers are the <spa className="text-style fw-lighter">fantastic species</spa> on Earth .</h1>
-                {/* <h1 className='fs-1 fw-lighter lg-text'>Web Developer are the <spa className="text-style fw-normal">fantastic species</spa> on Earth .</h1> */}
+            <div className="animated-text mb-4">
+                <h1 className='fw-bold lg-text'>Web Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
+                <h1 className='fw-bold lg-text'>Web Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
+                {/* <h1 className='fs-1 fw-lighter lg-text'>Web Developer are the <span className="text-style fw-normal">fantastic species</span> on Earth .</h1> */}
             </div>
         </>
     );
