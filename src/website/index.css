@@ -319,6 +319,8 @@ span{
     background-color: var(--gray);
     border-radius: 1rem;
 }
+
+
 @media (max-width : 998px){
     .header{
         height : auto;

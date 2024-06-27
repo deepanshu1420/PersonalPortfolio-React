@@ -89,7 +89,7 @@ function TodoApp() {
                                     return <Card key={id} uniqueKey = {id} data = {ele} func={deleteItem} func1={editItem}/>
                                 })
                             }
-                        </div> : <h1 className="fw-lighter fs-1 text-center mt-5">Stack is empty as of now .</h1>
+                        </div> : <h1 className="fw-lighter fs-1 text-center mt-5 todo-text">Stack is empty as of now .</h1>
                         }
                     </div>
                 </div>

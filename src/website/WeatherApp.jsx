@@ -65,7 +65,7 @@ function WeatherApp() {
                                         <p className="fw-light text-capitalize sm-text">humidity : <span>{obj?.main?.humidity}</span></p>
                                     </div>
                                     <p className="text-center mt-3 fw-lighter">This is Live data that is available on network ...</p>
-                                </div> : <h1 className="text-center mt-5" style={{color : "var(--gray"}}>Enter to search the weather</h1>
+                                </div> : <h1 className="text-center mt-5 fw-lighter" style={{color : "var(--black"}}>Enter to search the weather</h1>
                                 }
                             </div>
                         </div>

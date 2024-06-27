@@ -1,8 +1,13 @@
-import CompB from "./CompB";
-const CompA = () => {
-  return (
+import CompB from './CompB';
+import { MiddleName } from './App';
+import { useContext } from 'react';
+function CompA(){
+  const name = useContext(MiddleName);
+  // alert(mname);
+  return(
     <>
-        <CompB/>
+     
+      <CompB name={name}/>
     </>
   );
 }

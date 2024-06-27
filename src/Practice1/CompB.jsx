@@ -1,13 +1,18 @@
-import { useContext } from "react";
-import { CrucialData  , Gender} from "./App";
-const CompB = () => {
-    const fname = useContext(CrucialData);
-    const gender = useContext(Gender);
+import { createContext, useContext } from "react";
+import { FirstName, LastName, MiddleName } from "./App";
+const Important = createContext();
+function CompB({ name }) {
+  const fname = useContext(FirstName);
+  const lname = useContext(LastName);
+  const mname = useContext(MiddleName);
   return (
     <>
-        <h1>Central Information is present here  , {fname} , is back  with {gender}</h1>
+      <Important.Provider value="Maa di bhen">
+        <h1 style={{ fontFamily: "sans-serif" }}>Hi , I am form Comp B , {fname} {mname} {lname}</h1>
+        <h1>Cool is my friend . {name}</h1>
+      </Important.Provider>
     </>
-  )
+  );
 }
-
+export {Important};
 export default CompB;
