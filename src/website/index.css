@@ -205,6 +205,9 @@ span{
 .animated-text h1{
     display: inline-block;
     /* margin-right : 1rem; */
+    /* overflow-y: hidden;
+    overflow-x: auto; */
+    /* overflow-x: hidden; */
     animation-name:scroll;
     animation-duration: 9s;
     animation-iteration-count: infinite;
@@ -225,7 +228,18 @@ span{
     
 }
 
+.my-box{
+    /* background-color: var(--primary); */
+    /* color : var(--white); */
+    /* border: 2px solid var(--primary); */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.298);
 
+    border-radius: 1rem;
+}
+.my-box h1{
+    line-height : 3rem;
+    text-align: justify;
+}
 
 /* ####################### food corner styling begins here ############## */
 .food-card{

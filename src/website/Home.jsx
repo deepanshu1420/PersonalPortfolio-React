@@ -1,5 +1,5 @@
 import Img from '../images/img74.svg';
-import {NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Home = () => {
     return (
         <>
@@ -17,7 +17,7 @@ const Home = () => {
                                 <NavLink to="/react-1/weather">
                                     <button type="button" className="btn fw-normal btn-primary text-capitalize">Check Weather</button>
                                 </NavLink>
-                                
+
                             </div>
                         </div>
                         <div className="col-12 head-img-box col-md-6 col-xl-6 temp-2 text-end order-1 order-lg-2">
@@ -36,6 +36,23 @@ const Home = () => {
                 <h1 className='fw-bold lg-text'>Web Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
                 {/* <h1 className='fs-1 fw-lighter lg-text'>Web Developer are the <span className="text-style fw-normal">fantastic species</span> on Earth .</h1> */}
             </div>
+
+
+            {/* <div className="row my-box p-3 my-5">
+                    <div className="col-5 col-lg-12 col-md-12 col-xl-12 mx-auto">
+                        <h1 className="fw-lighter fs-4 text-justify">This website is designed just to focus on my concept so that later in future I can build more advanced and good projects Here in this project I am just focusing on the basic concept of React Js and making my fundamentals very strong .And yes In future I will definitely design more advance project , for sure .</h1>
+                    </div>
+                </div> */}
+
+            <div className="container mb-3">
+                <div className="row">
+                    <div className="col-xl-12 col-lg-12 col-11 my-box mx-auto my-3">
+                        <h1 className="fw-lighter fs-4 text-justify p-3">This website is designed just to focus on my concept so that later in future I can build more advanced and good projects Here in this project I am just focusing on the basic concept of React Js and making my fundamentals very strong .And yes In future I will definitely design more advance project , for sure .</h1>
+                    </div>
+                </div>
+            </div>
+
+            {/* <p>Lorem ipsum dolor sit amet.</p> */}
         </>
     );
 }
