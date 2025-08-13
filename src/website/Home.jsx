@@ -1,5 +1,6 @@
 import React from 'react';
-import Img from '../images/img74.svg';
+// Change the SVG import to treat it as a React Component
+import { ReactComponent as Img } from '../images/img74.svg';
 import { NavLink } from 'react-router-dom';
 // Import gsap and the useGSAP hook
 import gsap from 'gsap';
@@ -43,7 +44,8 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="col-12 head-img-box col-md-6 col-xl-6 temp-2 text-end order-1 order-lg-2">
-                            <img src={Img} className="img-fluid my-img-1" alt="later on" />
+                            {/* Use the imported SVG as a component */}
+                            <Img className="img-fluid my-img-1" />
                         </div>
                     </div>
                 </section>
