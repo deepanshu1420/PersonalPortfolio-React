@@ -1,6 +1,29 @@
+import React from 'react';
 import Img from '../images/img74.svg';
 import { NavLink } from 'react-router-dom';
+// Import gsap and the useGSAP hook
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+
 const Home = () => {
+    // Add the animation logic inside the Home component
+    useGSAP(() => {
+        const tl = gsap.timeline();
+
+        tl.from(".my-img-1", {
+            scale: 0,
+            delay: 0.5,
+            duration: 0.4
+        });
+
+        tl.to(".my-img-1", {
+            scale: 0.9,
+            repeat: -1,
+            yoyo: true,
+            duration: 0.8
+        });
+    });
+
     return (
         <>
             <div className="container">
@@ -17,7 +40,6 @@ const Home = () => {
                                 <NavLink to="/react-1/weather">
                                     <button type="button" className="btn fw-normal btn-primary text-capitalize">Check Weather</button>
                                 </NavLink>
-
                             </div>
                         </div>
                         <div className="col-12 head-img-box col-md-6 col-xl-6 temp-2 text-end order-1 order-lg-2">
@@ -34,15 +56,7 @@ const Home = () => {
             <div className="animated-text mb-4">
                 <h1 className='fw-bold lg-text'>Software Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
                 <h1 className='fw-bold lg-text'>Software Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
-                {/* <h1 className='fs-1 fw-lighter lg-text'>Web Developer are the <span className="text-style fw-normal">fantastic species</span> on Earth .</h1> */}
             </div>
-
-
-            {/* <div className="row my-box p-3 my-5">
-                    <div className="col-5 col-lg-12 col-md-12 col-xl-12 mx-auto">
-                        <h1 className="fw-lighter fs-4 text-justify">This website is designed just to focus on my concept so that later in future I can build more advanced and good projects Here in this project I am just focusing on the basic concept of React Js and making my fundamentals very strong .And yes In future I will definitely design more advance project , for sure .</h1>
-                    </div>
-                </div> */}
 
             <div className="container mb-3">
                 <div className="row">
@@ -51,8 +65,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-            {/* <p>Lorem ipsum dolor sit amet.</p> */}
         </>
     );
 }
