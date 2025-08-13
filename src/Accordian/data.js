@@ -14,10 +14,10 @@ const data = [
     },
     {
         question : "Who developed this mini application ?",
-        answer : "Parth Kapoor"
+        answer : "Deepanshu Sharma"
     },
     {
-        question : "Who is Parth Kapoor ?",
+        question : "Who is Deepanshu Sharma?",
         answer : "He is a full stack web developer and is now 24 and currently working Tata Technologies ..."
     }
 ];

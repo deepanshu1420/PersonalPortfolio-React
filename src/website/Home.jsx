@@ -8,8 +8,8 @@ const Home = () => {
                     <div className="row">
                         <div className="col-12 head-box col-md-6 col-xl-6 temp-1 d-flex flex-column justify-content-center order-2 order-lg-1 px-4">
                             <h1 className="fw-bolder fs-1 lh-base lg-heading">React : Famous and Powerful <span>UI Library</span> for frontend</h1>
-                            <h4 className="fw-bolder mt-3">I am full stack web <span>developer</span></h4>
-                            <p className="sm-text fw-light desc my-3">A Full Stack Web Developer is skilled in both front-end and back-end development, capable of building complete web applications. They work with languages like HTML, CSS, JavaScript, and frameworks like React or Angular, as well as server-side technologies like Node.js, databases, and APIs to create seamless user experiences.</p>
+                            <h4 className="fw-bolder mt-3">I am a Software <span>Developer</span></h4>
+                            <p className="sm-text fw-light desc my-3">A Software Developer builds and maintains applications in C++, Java, JavaScript, React, Node etc. They use frameworks and tools to create scalable, high-performance solutions, collaborating on requirements, architecture, features, and API or database integration for optimized delivery.</p>
                             <div className="btns d-flex gap-5 mb-5">
                                 <NavLink to="/react-1/form">
                                     <button type="button" className="btn fw-normal btn-primary text-capitalize">contact us</button>
@@ -27,13 +27,13 @@ const Home = () => {
                 </section>
 
                 <div className="para">
-                    <h1 className='fw-normal fs-1 mb-5 px-3 px-lg-0'>We deliver top notch SaaS .Every <span className='fw-bolder'>company needs</span> content marketing to grow organically—and this also holds true for brands offering <span className='fw-bolder'>SaaS</span> products. The SaaS and <span className='fw-bolder'>tech sectors</span> are unique in their nature.</h1>
+                    <h1 className='fw-normal fs-1 mb-5 px-3 px-lg-0'>We deliver top notch SaaS .Every <span className='fw-bolder'>industry depends</span> on technology especially in SaaS and <span className='fw-bolder'>tech sectors</span> where speed, scalability, and <span className='fw-bolder'>innovation</span> are vital. I <span className='fw-bolder'>develop applications</span> that exceed those demands.</h1>
                 </div>
             </div>
 
             <div className="animated-text mb-4">
-                <h1 className='fw-bold lg-text'>Web Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
-                <h1 className='fw-bold lg-text'>Web Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
+                <h1 className='fw-bold lg-text'>Software Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
+                <h1 className='fw-bold lg-text'>Software Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
                 {/* <h1 className='fs-1 fw-lighter lg-text'>Web Developer are the <span className="text-style fw-normal">fantastic species</span> on Earth .</h1> */}
             </div>
 

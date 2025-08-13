@@ -14,7 +14,7 @@ const Form = () => {
                                 <form action="" onSubmit={submitData}>
                                     <div class="mb-4">
                                         <label for="parth kapoor" class="form-label">Name</label>
-                                        <input type="text" class="form-control" id="parth kapoor" placeholder="parth kapoor" />
+                                        <input type="text" class="form-control" id="Deepanshu Sharma" placeholder="Deepanshu Sharma" />
                                     </div>
                                     
                                     <div class="mb-4">
