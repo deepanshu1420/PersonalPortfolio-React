@@ -22,7 +22,7 @@ This portfolio showcases projects, skills, and personal information with a clean
 ---
 
 ## ✅ Advantages
-- Professional and interactive portfolio to showcase your development skills.  
+- Professional and interactive portfolio to showcase my development skills.  
 - Optimized performance using React.js and clean HTML/CSS.  
 - Easy to maintain and extend with modular React components.  
 
