@@ -20,10 +20,10 @@ function Navbar() {
             <div className="container">
                 <nav className="navbar nav-bg navbar-expand-lg navbar-light py-3">
                     <div className="container-fluid">
-                        
+
                         {/* Brand/Logo on left */}
                         <h1 className="fs-4 fw-bold mb-0">
-                            <NavLink className="navbar-brand" to="/react-1">
+                            <NavLink className="navbar-brand brand-glow" to="/react-1">
                                 Deepanshu <span ref={el} id="my-name" className="my-logo"></span>
                             </NavLink>
                         </h1>

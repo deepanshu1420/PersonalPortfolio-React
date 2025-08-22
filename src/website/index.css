@@ -187,13 +187,15 @@ body.dark .navbar-toggler-icon {
     background-color: var(--card-bg-color);
     border-radius: 2.5rem;
     padding: 2.5rem;
-    box-shadow: 0 13px 30px var(--primary);
+    box-shadow: 9px 11px 28px rgba(52, 172, 224, 0.5); /* softer blue glow */
     transition: all 0.3s ease;
 }
+
 .my-box:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 36px var(--shadow-color);
+    box-shadow: 12px 15px 36px rgba(52, 172, 224, 0.8); /* stronger blue glow */
 }
+
 
 /* --- NEW TODO APP UI --- */
 .todo-app-container {
@@ -531,6 +533,31 @@ body.dark .form-control::-ms-input-placeholder {
         font-size: 0.9rem; /* slightly smaller font */
     }
 }
+
+/* Default brand */
+.brand-glow {
+  color: black; /* default in light mode */
+  transition: all 0.3s ease;
+}
+
+/* Light mode hover */
+.light .brand-glow:hover {
+  color: #007bff; /* blue */
+  text-shadow: 0 0 8px rgb(83, 153, 227); /* subtle glow */
+}
+
+/* Dark mode default */
+.dark .brand-glow {
+  color: white; /* default in dark mode */
+}
+
+/* Dark mode hover */
+.dark .brand-glow:hover {
+  color: #66b2ff; /* light blue */
+  text-shadow: 0 0 18px rgba(54, 144, 234, 0.955);
+}
+
+
 
 
 
