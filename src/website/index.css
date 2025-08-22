@@ -503,7 +503,34 @@ body.dark .form-control::-ms-input-placeholder {
 
 
 
+/* CATEGORY BUTTONS LAYOUT */
+.food-category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.6rem;
+    margin: 1rem 0;
+}
 
+/* Make buttons consistent */
+.food-category-filters .btn-primary {
+    flex: 0 1 auto;
+    padding: 0.4rem 1.2rem;
+    border-radius: 40px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+/* --- Mobile View: force 3 per row (2 rows total for 6 buttons) --- */
+@media (max-width: 768px) {
+    .food-category-filters .btn-primary {
+        flex: 1 1 calc(30% - 0.5rem); /* 3 per row */
+        max-width: 32%; /* prevent buttons from being too wide */
+        text-align: center;
+        padding: 0.4rem 0.8rem; /* smaller padding */
+        font-size: 0.9rem; /* slightly smaller font */
+    }
+}
 
 
 
