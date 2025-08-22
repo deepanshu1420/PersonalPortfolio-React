@@ -55,10 +55,13 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="animated-text mb-4">
-                <h1 className='fw-bold lg-text'>Software Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
-                <h1 className='fw-bold lg-text'>Software Developers are the <span className="text-style fw-lighter">fantastic species</span> on Earth .</h1>
-            </div>
+            {/* --- THIS IS THE UPDATED SECTION --- */}
+            {/* The classes and span tags have been removed for the new style */}
+            {/* --- THIS IS THE UPDATED SECTION --- */}
+<div className="animated-text">
+    <h1>Software Developers are the <span className="text-style">fantastic species</span> on Earth .</h1>
+    <h1>Software Developers are the <span className="text-style">fantastic species</span> on Earth .</h1>
+</div>
 
             <div className="container mb-3">
                 <div className="row">
