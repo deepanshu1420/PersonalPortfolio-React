@@ -28,10 +28,15 @@ function FoodCorner() {
                         {/* I've added a unique class here for better styling */}
                         <div className="group-btn my-3 mx-auto d-flex align-items-start justify-content-between flex-wrap gap-3 food-category-filters">
                             {
-                                categoryBag.map(ele => {
-                                    {/* THIS IS THE ONLY CHANGE: The <span> has been removed */}
-                                    return <button className="btn btn-primary sm-text text-capitalize" onClick={() => updateCategoryWise(ele)}>{ele}</button>
-                                })
+                                categoryBag.map(ele => (
+                                    // The <span> has been removed
+                                    <button 
+                                        className="btn btn-primary sm-text text-capitalize" 
+                                        onClick={() => updateCategoryWise(ele)}
+                                    >
+                                        {ele}
+                                    </button>
+                                ))
                             }
                         </div>
                         <div className="food-father pb-3">
