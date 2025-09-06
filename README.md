@@ -24,12 +24,12 @@ This portfolio showcases projects, skills, and personal information with a clean
 
 ## ⚡ Features & Highlights
 - **Project Showcase with Modals:** Interactive project cards that open a modal for a detailed view, including links to the live project and GitHub repository.  
-- **"New" Badge for Recent Projects:** Keeps the portfolio fresh and highlights new work instantly.  
+- **New Badge for Recent Projects:** Keeps the portfolio fresh and highlights new work instantly.  
 - **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.  
 - **React.js Components:** Modular, maintainable, and reusable UI components.  
 - **Dynamic Theme Switching:** Toggle between light and dark themes for a personalized viewing experience.  
 - **Custom Cursor Tracker:** An interactive cursor enhances the user experience.  
-- **"Read More/Less" for Project Descriptions:** Expand or collapse project descriptions to keep the layout clean.  
+- **Read More/Less for Project Descriptions:** Expand or collapse project descriptions to keep the layout clean.  
 - **Smooth Animations:** GSAP-powered animations for engaging transitions and interactions.  
 - **Performance Optimized:** Lazy loading and efficient asset handling for faster load times.  
 
