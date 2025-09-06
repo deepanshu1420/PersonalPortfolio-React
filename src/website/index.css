@@ -733,13 +733,6 @@ body.dark .form-control::-ms-input-placeholder {
     margin-top: 1rem;    
 }
 
-/* --- Project Card Mobile Adjustments (V2) --- */
- .project-card {
-    /* This overrides the inline style="min-height: 500px" */
-    min-height: auto !important; 
-    margin-bottom: 2rem !important; 
-  }
-
 }
 
 .code-icon {
