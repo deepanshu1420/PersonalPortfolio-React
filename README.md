@@ -12,8 +12,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-blueviolet)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-**A modern, responsive developer portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP, and CSS3/HTML5 — delivering scalability, interactivity, and a seamless user experience.**  
-&nbsp;  
+**A modern, responsive developer portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP, and CSS3/HTML5 — delivering scalability, interactivity, and a seamless user experience.**    
 &nbsp;  
 🌐 **[Click to Know About Me](https://personalportfolio-online.netlify.app/)**  
 
