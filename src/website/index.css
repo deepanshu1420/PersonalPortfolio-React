@@ -733,6 +733,31 @@ body.dark .form-control::-ms-input-placeholder {
     margin-top: 1rem;    
 }
 
+/* --- Project Card Mobile Adjustments (V2) --- */
+ .project-card {
+    /* This overrides the inline style="min-height: 500px" */
+    min-height: auto !important; 
+    margin-bottom: 2rem !important; 
+  }
+
+  .project-card .project-title {
+    /* Overrides Bootstrap's fs-5 class */
+    font-size: 1.2rem !important; 
+    padding-top: 5px !important;   
+    line-height: 1.2 !important; 
+  }
+
+  .project-card .text-box {
+    /* Overrides Bootstrap's p-3 class */
+    padding: 0.5rem 1rem 1rem 1rem !important; 
+  }
+
+  /* This adds the glow/scale effect on touch for mobile devices */
+  .project-card:active {
+    transform: scale(1.04);
+    box-shadow: 11px 13px 17px rgba(0, 123, 255, 0.5);
+  }
+
 }
 
 .code-icon {
