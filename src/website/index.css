@@ -420,6 +420,7 @@ body.dark .form-control::-ms-input-placeholder {
     .my-box h1 {
         font-size: 1rem;
         line-height: 2.2rem;
+        hyphens: auto;      /* ✅ Add this line */
     }
 
     .food-card .img-box-food { height: 15vh; }
@@ -738,6 +739,40 @@ body.dark .form-control::-ms-input-placeholder {
   transform: scale(1.3) rotate(10deg);
   color: #007bff; /* dark blue on hover*/
 }
+
+/* === NEW Animated Pointer Tracker === */
+.cursor-dot,
+.cursor-outline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  pointer-events: none; /* Allows clicks to pass through */
+  z-index: 9999;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #1e90ff; /* A solid blue dot */
+}
+
+.cursor-outline {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(30, 144, 255, 0.5); /* A semi-transparent blue outline */
+  background-color: rgba(30, 144, 255, 0.1);
+}
+
+/* Hide the custom cursor on smaller screens */
+@media (max-width: 768px) {
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+  }
+}
+
 
 
 
