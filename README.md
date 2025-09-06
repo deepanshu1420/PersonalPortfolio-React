@@ -50,23 +50,29 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 ## 📷 Screenshots / Demo
 Here are some previews of my portfolio to showcase its design and features:  
 
+### 🏠 Home Page
 ![Home Page](./Screenshots/Homee.png)  
 *Clean and modern landing page introducing me and my portfolio.*  
 
+### 📂 Projects Section
 ![Projects Section](./Screenshots/Projectss.png)  
 *Projects overview displaying recent work with "New" badges.*  
 
+### 📝 Project Card Previews
 ![Project Card Previews](./Screenshots/ProjectCardPreviews.png)  
 *Interactive project cards with modals, live links, and GitHub links.*  
 
+### 🍴 Food Corner (Further Innovations)
 ![Further Innovations](./Screenshots/FurtherInnovations.png)  
-*Food Corner section with interactive food details, highlighting product rates, discounts, and engaging previews.*
+*Food Corner section with interactive food details, highlighting product rates, discounts, and engaging previews.*  
 
+### 🌦 Weather App
 ![Weather App](./Screenshots/weatherApp.png)  
 *A weather app built with real-time API integration and responsive design.*  
 
+### 📋 Todo App
 ![Todo App](./Screenshots/TodoApp.png)  
-*A todo app featuring add, delete, and **edit** functionality for tasks.* 
+*A todo app featuring add, delete, and **edit** functionality for tasks.*  
 
 ---
 
