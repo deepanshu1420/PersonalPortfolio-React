@@ -745,6 +745,40 @@ body.dark .form-control::-ms-input-placeholder {
     line-height: 1.2rem !important; 
   }
 
+ /* --- FINAL: Position Badges on Mobile Card (v2) --- */
+
+/* 1. Make the card a positioning container */
+.food-card {
+  position: relative;
+}
+
+/* 2. Position the 'NEW' badge - MOVED UP & RIGHT */
+.food-card .new-item {
+  position: absolute;
+  top: 0.65rem;    /* Was 1rem */
+  right: 0.60rem;  /* Was 1rem */
+  z-index: 2;
+}
+
+/* 3. Keep the price and discount tag in a row */
+.price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* 4. Unified styling for BOTH badges - MADE SMALLER */
+.discount-tag,
+.food-card .new-item {
+  padding: 0.14rem 0.4rem;  /* Reduced padding */
+  font-size: 0.55rem;      /* Smaller font */
+  font-weight: 700;
+  border-radius: 100px;
+  color: var(--white) !important;
+} 
+
+
 }
 
 .code-icon {
