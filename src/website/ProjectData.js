@@ -1,11 +1,11 @@
-import AINexusImg from "../website/ProjectImages/AINexus.png";
-import DeeMusicImg from "../website/ProjectImages/DeeMusic.png";
-import InstagramCloneImg from "../website/ProjectImages/InstagramClone.png";
-import CarRacingGameImg from "../website/ProjectImages/CarRacingGame.png";
-import NationsHubImg from "../website/ProjectImages/NationsHub.png";
-import NikeImg from "../website/ProjectImages/Nike.png";
-import GitHubProfileSearchImg from "../website/ProjectImages/GitHubProfileSearch.png";
-import MovieRecommendationImg from "../website/ProjectImages/MovieRecommendation.png";
+import AINexusImg from "./ProjectImages/AINexus.png";
+import DeeMusicImg from "./ProjectImages/DeeMusic.png";
+import InstagramCloneImg from "./ProjectImages/InstagramClone.png";
+import CarRacingGameImg from "./ProjectImages/CarRacingGame.png";
+import NationsHubImg from "./ProjectImages/NationsHub.png";
+import NikeImg from "./ProjectImages/Nike.png";
+import GitHubProfileSearchImg from "./ProjectImages/GitHubProfileSearch.png";
+import MovieRecommendationImg from "./ProjectImages/MovieRecommendation.png";
 
 const ProjectData = [
   {
