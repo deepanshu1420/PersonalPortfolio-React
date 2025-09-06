@@ -725,13 +725,34 @@ body.dark .form-control::-ms-input-placeholder {
   .typed { font-size: 0.98rem; }
   .site-footer .social-icons a { width: 40px; height: 40px; font-size: 0.95rem; }
   .lg-heading { font-size: 1.8rem !important; }
-}
 
-/* --- ADD THE NEW CODE HERE --- */
+  /* --- ADD THE NEW CODE HERE --- */
   .site-footer .copyright {
     font-size: 0.8rem;   
     white-space: nowrap; 
     margin-top: 1rem;    
+}
+
+ /* --- Project Card Mobile Adjustments (ADD THIS CODE) --- */
+  .project-card {
+    min-height: auto !important; 
+    margin-bottom: 2rem !important;
+  }
+  .project-card .project-title {
+    font-size: 1.2rem; 
+    padding-top: 5px;   
+    line-height: 1.2; 
+  }
+  .project-card .text-box {
+    padding: 0.5rem 1rem 1rem 1rem; 
+  }
+  .project-card:active {
+    transform: scale(1.04);
+    box-shadow: 11px 13px 17px rgba(0, 123, 255, 0.5);
+  }
+
+
+
 }
 
 .code-icon {
