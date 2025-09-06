@@ -325,3 +325,12 @@ body.dark .nav-bg {
 /* Keep dropdown background styling you already have — no change needed */
 
 /* End of new navbar glass + icon animation rules */
+
+
+/* --- FORCE REMOVE MOBILE MENU BOTTOM SPACE --- */
+@media (max-width: 768px) {
+    /* Target the main container of the expanded menu */
+    .navbar-collapse {
+        padding-bottom: 0rem !important; /* Force a smaller bottom padding */
+    }
+}
