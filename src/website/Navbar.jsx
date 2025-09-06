@@ -1,19 +1,46 @@
-import { NavLink } from 'react-router-dom';
-import React, { useEffect, useRef, useContext } from "react";
+import { NavLink, useLocation } from 'react-router-dom';
+import React, { useEffect, useRef, useContext, useState } from "react";
 import Typed from "typed.js";
 import { ThemeContext } from './App';
+import './Navbar.css';
+import { AiFillHome, AiOutlineProject, AiOutlineCloud, AiOutlineCheckCircle, AiOutlineMail } from 'react-icons/ai';
+import { FiSun, FiMoon } from 'react-icons/fi'; // <-- added
 
 function Navbar() {
     const { theme, toggleTheme } = useContext(ThemeContext);
     const el = useRef(null);
+    const location = useLocation();
+    const dropdownRef = useRef(null);
+    const [dropdownOpen, setDropdownOpen] = useState(false);
 
     useEffect(() => {
         const typed = new Typed(el.current, {
             strings: ["Developer", "Writer", "Programmer", "Coder", "Player"],
-            typeSpeed: 50, loop: true, loopCount: Infinity, cursorChar: "|"
+            typeSpeed: 50,
+            loop: true,
+            loopCount: Infinity,
+            cursorChar: "|"
         });
-        return () => { typed.destroy(); };
+        return () => typed.destroy();
     }, []);
+
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+                setDropdownOpen(false);
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, []);
+
+    useEffect(() => {
+        setDropdownOpen(false);
+    }, [location]);
+
+    const isProjectsMain = location.pathname === "/react-1/projects";
+    const isMoreProjects = location.pathname.startsWith("/react-1/projects/foodcorner") ||
+                           location.pathname.startsWith("/react-1/projects/under-development");
 
     return (
         <div className="my-block">
@@ -21,17 +48,20 @@ function Navbar() {
                 <nav className="navbar nav-bg navbar-expand-lg navbar-light py-3">
                     <div className="container-fluid">
 
-                        {/* Brand/Logo on left */}
                         <h1 className="fs-4 fw-bold mb-0">
                             <NavLink className="navbar-brand brand-glow" to="/react-1">
                                 Deepanshu <span ref={el} id="my-name" className="my-logo"></span>
                             </NavLink>
                         </h1>
 
-                        {/* Hamburger + Theme toggle on right */}
                         <div className="d-flex align-items-center">
-                            <button onClick={toggleTheme} className="theme-toggle-btn d-lg-none me-2">
-                                {theme === 'light' ? '🌙' : '☀️'}
+                            <button
+                              onClick={toggleTheme}
+                              className="theme-toggle-btn d-lg-none me-2"
+                              aria-label="Toggle theme"
+                              title="Toggle theme"
+                            >
+                                {theme === 'light' ? <FiMoon className="theme-icon" /> : <FiSun className="theme-icon" />}
                             </button>
                             <button 
                                 className="navbar-toggler" 
@@ -46,44 +76,72 @@ function Navbar() {
                             </button>
                         </div>
 
-                        {/* Collapsible Menu */}
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
                                 <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active" : "nav-link not-active"} to="/react-1" end>
-                                        Home
-                                    </NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active" : "nav-link not-active"} to="/react-1/weather">
-                                        Check Weather
-                                    </NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active" : "nav-link not-active"} to="/react-1/todo">
-                                        Todo App
-                                    </NavLink>
-                                </li>
-                                <li className="nav-item">
-                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active" : "nav-link not-active"} to="/react-1/form">
-                                        Contact Us
+                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active animated-icon" : "nav-link not-active animated-icon"} to="/react-1" end>
+                                        <AiFillHome className="me-1" /> Home
                                     </NavLink>
                                 </li>
 
-                                <li className="nav-item dropdown">
-                                    <a className="nav-link dropdown-toggle not-active" href="#!" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        More Projects
-                                    </a>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><NavLink className="dropdown-item" to="/react-1/projects/foodcorner">Food Corner</NavLink></li>
-                                        <li><NavLink className="dropdown-item" to="/react-1">Under Development</NavLink></li>
+                                <li className="nav-item">
+                                    <NavLink className={({ isActive }) => isProjectsMain ? "nav-link is-active animated-icon" : "nav-link not-active animated-icon"} to="/react-1/projects">
+                                        <AiOutlineProject className="me-1" /> Projects
+                                    </NavLink>
+                                </li>
+
+                                <li className="nav-item">
+                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active animated-icon" : "nav-link not-active animated-icon"} to="/react-1/weather">
+                                        <AiOutlineCloud className="me-1" /> Check Weather
+                                    </NavLink>
+                                </li>
+
+                                <li className="nav-item">
+                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active animated-icon" : "nav-link not-active animated-icon"} to="/react-1/todo">
+                                        <AiOutlineCheckCircle className="me-1" /> Todo App
+                                    </NavLink>
+                                </li>
+
+                                <li className="nav-item">
+                                    <NavLink className={({ isActive }) => isActive ? "nav-link is-active animated-icon" : "nav-link not-active animated-icon"} to="/react-1/form">
+                                        <AiOutlineMail className="me-1" /> Contact Us
+                                    </NavLink>
+                                </li>
+
+                                {/* More Projects dropdown */}
+                                <li ref={dropdownRef} className="nav-item dropdown-parent">
+                                    <button
+                                        className={`nav-link dropdown-button ${isMoreProjects ? 'is-active' : 'not-active'}`}
+                                        onClick={() => setDropdownOpen(!dropdownOpen)}
+                                    >
+                                        Further Innovations 
+                                        <span className={`dropdown-icon ${dropdownOpen ? 'open' : ''}`}>▼</span>
+                                    </button>
+                                    <ul className={`custom-dropdown ${dropdownOpen ? 'open' : ''}`}>
+                                        <li>
+                                            <NavLink 
+                                                className={({ isActive }) => isActive ? "dropdown-item is-active" : "dropdown-item not-active"} 
+                                                to="/react-1/projects/foodcorner"
+                                                onClick={() => setDropdownOpen(false)}
+                                            >
+                                                Food Corner
+                                            </NavLink>
+                                        </li>
+                                        <li>
+                                            <NavLink 
+                                                className={({ isActive }) => isActive ? "dropdown-item is-active" : "dropdown-item not-active"} 
+                                                to="/react-1/projects/under-development"
+                                                onClick={() => setDropdownOpen(false)}
+                                            >
+                                                Under Development
+                                            </NavLink>
+                                        </li>
                                     </ul>
                                 </li>
 
-                                {/* Desktop-only theme toggle */}
-                                <li className="nav-item ms-lg-3 d-none d-lg-block">
-                                    <button onClick={toggleTheme} className="theme-toggle-btn">
-                                        {theme === 'light' ? '🌙' : '☀️'}
+                                <li className="nav-item ms-lg-1 d-none d-lg-block">
+                                    <button onClick={toggleTheme} className="theme-toggle-btn" aria-label="Toggle theme" title="Toggle theme">
+                                        {theme === 'light' ? <FiMoon className="theme-icon" /> : <FiSun className="theme-icon" />}
                                     </button>
                                 </li>
                             </ul>
@@ -94,4 +152,5 @@ function Navbar() {
         </div>
     );
 }
+
 export default Navbar;
