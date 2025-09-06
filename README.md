@@ -12,7 +12,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-blueviolet)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-**A modern, responsive developer portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP, and CSS3/HTML5 — delivering scalability, interactivity, and a seamless user experience.**    
+**A modern, responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP, and CSS3/HTML5 — delivering scalability, interactivity, and a seamless user experience.**    
 &nbsp;  
 🌐 **[Click to Know About Me](https://personalportfolio-online.netlify.app/)**  
 
@@ -48,7 +48,7 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 ---
 
 ## 📷 Screenshots / Demo
-Here are some previews of the portfolio to showcase its design and features:  
+Here are some previews of my portfolio to showcase its design and features:  
 
 ![Home Page](./screenshots/Homee.png)  
 *Clean and modern landing page introducing me and my portfolio.*  
