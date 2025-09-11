@@ -6,6 +6,7 @@ import NationsHubImg from "./ProjectImages/NationsHub.png";
 import NikeImg from "./ProjectImages/Nike.png";
 import GitHubProfileSearchImg from "./ProjectImages/GitHubProfileSearch.png";
 import MovieRecommendationImg from "./ProjectImages/MovieRecommendation.png";
+import jwtAuthentication from "./ProjectImages/jwtAuthentication.png";
 
 const ProjectData = [
   {
@@ -18,8 +19,18 @@ const ProjectData = [
     skills: ["React.js", "JavaScript", "Socket.IO", "Gemini API Key", "Axios", "Vite", "ReactMarkdown", "UI/UX", "TailwindCSS"],
     isNew: true 
   },
-  {
+   {
     id: 2,
+    title: "JSON Web Token Authentication",
+    desc: "A MERN stack application implementing JWT-based authentication with bcrypt.js encryption and secure session handling, ensuring protected routes, real-time access control, and improved application security.",
+    image: jwtAuthentication,
+    github: "https://github.com/deepanshu1420/jwtAuthentication.git",
+    live: "https://jwtauth-secure.vercel.app/",
+    skills: ["MERN Stack", "JavaScript", "MongoDB", "Node.js", "Express.js", "Handlebars.js", "Bcrypt.js", "Nodemon", "JWT Tokens"],
+    isNew: false 
+  },
+  {
+    id: 3,
     title: "DeeMusic NextGen",
     desc: "Apple Music–inspired glassmorphic UI, DeeMusic-NextGen offers real-time streaming, dynamic playlists, mood-based discovery, fluid animations, responsive layouts, and interactive engagement in a sleek, modern interface.",
     image: DeeMusicImg,
@@ -29,7 +40,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 3,
+    id: 4,
     title: "Instagram Clone",
     desc: "Instagram replica with real-time post creation, likes and comments, fully responsive on mobile and desktop, attention to visual details and typography, seamless light/dark theme toggle, powered by Meta.",
     image: InstagramCloneImg,
@@ -38,7 +49,7 @@ const ProjectData = [
     skills: ["React.js", "TypeScript", "Heroicons", "PostCSS", "Vite", "TailwindCSS", "UI/UX", "Instagram Meta", "React Icons"]
   },
   {
-    id: 4,
+    id: 5,
     title: "Car Racing Game",
     desc: "Driven by asynchronous logic and event-based controls, this racing simulator delivers adjustable speeds, fluid dynamics, responsive handling, real-time interactions, and immersive visuals.",
     image: CarRacingGameImg,
@@ -47,7 +58,7 @@ const ProjectData = [
     skills: ["Asynchronous JavaScript", "Material UI","HTML5", "CSS3", "Game Development"]
   },
   {
-    id: 5,
+    id: 6,
     title: "Nations Hub Info",
     desc: "Welcome to Nations Hub! Explore information about every country on Earth with our rich interactive experience. Discover stats, flags, and challenge yourself with geography games!",
     image: NationsHubImg,
@@ -57,7 +68,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 6,
+    id: 7,
     title: "Nike NextJS",
     desc: "Next.js-powered Nike site with responsive layouts, interactive hero sections, engaging product showcases, and animated testimonials in an advanced e-commerce front-end.",
     image: NikeImg,
@@ -67,7 +78,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 7,
+    id: 8,
     title: "GitHub Profile Search",
     desc: "The GitHub Profile Search App lets users instantly explore profiles, view bios, repositories, followers, and more, with real-time updates for an engaging experience.",
     image: GitHubProfileSearchImg,
@@ -76,7 +87,7 @@ const ProjectData = [
     skills: ["React.js", "JavaScript", "GitHub REST API", "CSS3", "HTML5", "React Framer Motion"]
   },
   {
-    id: 8,
+    id: 9,
     title: "Movie Recommendation App",
     desc: "An interactive movie recommendation app where users can browse, search, and discover films with live updates, selectable posters, IMDb ratings, detailed views, and a responsive, engaging interface.",
     image: MovieRecommendationImg,
