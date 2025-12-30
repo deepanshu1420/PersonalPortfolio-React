@@ -7,6 +7,19 @@
     font-family: "Open Sans", sans-serif;
 }
 
+/* Ensure card is the positioning reference */
+.food-card {
+  position: relative;
+}
+
+/* Move NEW badge upward on desktop */
+.food-card .new-item {
+  position: absolute;
+  top: 0.7rem;     
+  right: 0.7rem;
+  z-index: 2;
+}
+
 /* --- THEME VARIABLES --- */
 :root {
     /* Original Colors */

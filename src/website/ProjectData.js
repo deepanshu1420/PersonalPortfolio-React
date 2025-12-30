@@ -6,7 +6,9 @@ import NationsHubImg from "./ProjectImages/NationsHub.png";
 import NikeImg from "./ProjectImages/Nike.png";
 import GitHubProfileSearchImg from "./ProjectImages/GitHubProfileSearch.png";
 import MovieRecommendationImg from "./ProjectImages/MovieRecommendation.png";
-import jwtAuthentication from "./ProjectImages/jwtAuthentication.png";
+import jwtAuthenticationImg from "./ProjectImages/jwtAuthentication.png";
+import sjtravelsnextImg from "./ProjectImages/sjTravelsNextJS.png";
+import ParticleCosmosImg from "./ProjectImages/ParticleCosmos.png";
 
 const ProjectData = [
   {
@@ -23,7 +25,7 @@ const ProjectData = [
     id: 2,
     title: "JSON Web Token Authentication",
     desc: "A MERN stack application implementing JWT-based authentication with bcrypt.js encryption and secure session handling, ensuring protected routes, real-time access control, and improved application security.",
-    image: jwtAuthentication,
+    image: jwtAuthenticationImg,
     github: "https://github.com/deepanshu1420/jwtAuthentication.git",
     live: "https://jwtauth-secure.vercel.app/",
     skills: ["MERN Stack", "JavaScript", "MongoDB", "Node.js", "Express.js", "Handlebars.js", "Bcrypt.js", "Nodemon", "JWT Tokens"],
@@ -69,6 +71,16 @@ const ProjectData = [
   },
   {
     id: 7,
+    title: "sjTravels NextJS",
+    desc: "A modern travel platform built with Next.js v15 and TypeScript, featuring responsive layouts, smooth animations, fast rendering, and SEO-optimized experiences for temple tours, homestays, and vehicle rentals.",
+    image: sjtravelsnextImg,
+    github: "https://github.com/deepanshu1420/sjTravelsNextJS.git",
+    live: "https://sjtravelsnext.vercel.app/",
+    skills: ["Next.js", "React.js", "TypeScript", "Shadcn/ui", "TailwindCSS", "UI/UX", "Lucide React Icons", "Framer Motion"],
+    isNew: true
+  },
+  {
+    id: 8,
     title: "Nike NextJS",
     desc: "Next.js-powered Nike site with responsive layouts, interactive hero sections, engaging product showcases, and animated testimonials in an advanced e-commerce front-end.",
     image: NikeImg,
@@ -78,7 +90,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 8,
+    id: 9,
     title: "GitHub Profile Search",
     desc: "The GitHub Profile Search App lets users instantly explore profiles, view bios, repositories, followers, and more, with real-time updates for an engaging experience.",
     image: GitHubProfileSearchImg,
@@ -87,14 +99,24 @@ const ProjectData = [
     skills: ["React.js", "JavaScript", "GitHub REST API", "CSS3", "HTML5", "React Framer Motion"]
   },
   {
-    id: 9,
+    id: 10,
+    title: "Particle Cosmos",
+    desc: "Gesture-controlled 3D particle visualizer where real-time hand movements via webcam shape dynamic visuals using Three.js and MediaPipe.",
+    image: ParticleCosmosImg,
+    github: "https://github.com/deepanshu1420/ParticleCosmos.git",
+    live: "https://particlecosmos.netlify.app/",
+    skills: ["Three.js", "MediaPipe", "JavaScript", "WebGL", "Webcam API", "CSS3", "HTML5"],
+    isNew: true
+  },
+  {
+    id: 11,
     title: "Movie Recommendation App",
     desc: "An interactive movie recommendation app where users can browse, search, and discover films with live updates, selectable posters, IMDb ratings, detailed views, and a responsive, engaging interface.",
     image: MovieRecommendationImg,
     github: "https://github.com/deepanshu1420/MovieRecommendationApp.git",
     live: "https://movierecommendationapp-online.netlify.app/",
     skills: ["React.js", "Create React App", "JavaScript", "Axios", "React Router", "React Icons", "TMDB API", "TailwindCSS", "HTML5"],
-    isNew: true
+    isNew: false
   }
 ];
 
