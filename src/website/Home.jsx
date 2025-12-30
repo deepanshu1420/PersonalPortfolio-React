@@ -116,7 +116,7 @@ const Home = () => {
                         <a href="https://www.linkedin.com/in/deepanshu-sharma12/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
                         <a href="https://x.com/deepanshushh" target="_blank" rel="noreferrer" aria-label="Twitter"><FaTwitter /></a>
                     </div>
-                    <p className="copyright">© 2025 Deepanshu Sharma. All rights reserved.</p>
+                    <p className="copyright">© 2026 Deepanshu Sharma. All rights reserved.</p>
                 </div>
             </footer>
         </>
