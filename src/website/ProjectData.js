@@ -9,6 +9,8 @@ import MovieRecommendationImg from "./ProjectImages/MovieRecommendation.png";
 import jwtAuthenticationImg from "./ProjectImages/jwtAuthentication.png";
 import sjtravelsnextImg from "./ProjectImages/sjTravelsNextJS.png";
 import ParticleCosmosImg from "./ProjectImages/ParticleCosmos.png";
+import SorryICantAffordFlowers from "./ProjectImages/flower.png";
+import AISummarizer from "./ProjectImages/AISummarizer.png";
 
 const ProjectData = [
   {
@@ -100,6 +102,16 @@ const ProjectData = [
   },
   {
     id: 10,
+    title: "AI Summarizer",
+    desc: "This application uses an AI-powered tool to generate short summaries of long web articles using the RapidAPI Article Extractor and Summarizer with NLP models. It also supports light and dark mode for a better user experience.",
+    image: AISummarizer,
+    github: "https://github.com/deepanshu1420/AI-Summarizer.git",
+    live: "https://aisummarizer-online.netlify.app/",
+    skills: ["React.js", "Redux Toolkit (RTK Query)", "JavaScript", "Tailwind CSS", "Vite", "Rapid API", "API Handling", "HTML5"],
+    isNew: true
+  },
+  {
+    id: 11,
     title: "Particle Cosmos",
     desc: "Gesture-controlled 3D particle visualizer where real-time hand movements via webcam shape dynamic visuals using Three.js and MediaPipe.",
     image: ParticleCosmosImg,
@@ -109,7 +121,17 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 11,
+    id: 12,
+    title: "Sorry I Cant Afford Flowers",
+    desc: "Who needs a real bouquet when you can grow a garden in your browser? Welcome to the most bloomin' marvelous repository on the web.",
+    image: SorryICantAffordFlowers,
+    github: "https://github.com/deepanshu1420/Sorry-I-Can-t-Afford-Flowers.git",
+    live: "https://justyouandmee.netlify.app/",
+    skills: ["Advanced CSS", "URL Parameter Handling", "HTML5", "DOM Manipulation", "UI/UX", "Vanilla JavaScript", "3D Transforms"],
+    isNew: false
+  },
+  {
+    id: 13,
     title: "Movie Recommendation App",
     desc: "An interactive movie recommendation app where users can browse, search, and discover films with live updates, selectable posters, IMDb ratings, detailed views, and a responsive, engaging interface.",
     image: MovieRecommendationImg,

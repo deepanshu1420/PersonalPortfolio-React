@@ -64,7 +64,7 @@ const Home = () => {
                             </h1>
                             {/* replaced static line with typed span — same place as before */}
                             <h4 className="fw-bolder mt-4">I am a <span id="typed-js" className="typed">Software Developer</span></h4>
-                            <p className="sm-text fw-light desc my-3">I am a software developer focused on crafting scalable, high-performance applications. With expertise in software design and AI prompt engineering for LLMs like ChatGPT and Gemini, I build intelligent, interactive solutions that merge automation with real-world usability.</p>
+                            <p className="sm-text fw-light desc my-3">I am a software developer focused on crafting scalable, high-performance applications. With expertise in software design and AI prompt engineering for LLMs like ChatGPT and Gemini, I build intelligent, interactive solutions using Cursor (an AI-assisted IDE) to merge automation with real-world usability.</p>
                             
                             {/* ✅ Added mt-4 for extra spacing */}
                             <div className="btns d-flex gap-5 mb-5 mt-4">
