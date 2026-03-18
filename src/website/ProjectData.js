@@ -11,6 +11,7 @@ import sjtravelsnextImg from "./ProjectImages/sjTravelsNextJS.png";
 import ParticleCosmosImg from "./ProjectImages/ParticleCosmos.png";
 import SorryICantAffordFlowers from "./ProjectImages/flower.png";
 import AISummarizer from "./ProjectImages/AISummarizer.png";
+import AstroLogicAI from "./ProjectImages/AstroLogicAI.png";
 
 const ProjectData = [
   {
@@ -112,6 +113,16 @@ const ProjectData = [
   },
   {
     id: 11,
+    title: "AstroLogic AI",
+    desc: "AstroLogic AI is a full-stack astrology prediction platform that blends Vedic Astrology + Numerology (Moolank & Bhagyank) with modern AI to deliver personalized insights on personality, career, love, and growth.",
+    image: AstroLogicAI,
+    github: "https://github.com/deepanshu1420/AstroLogicAI.git",
+    live: "https://astrologicai.netlify.app/",
+    skills: ["JavaScript (ES6+)", "Tailwind CSS", "Node.js", "Express.js", "Gemini API", "Flatpickr", "html2canvas", "HTML5", "Netlify Functions"],
+    isNew: true
+  },
+  {
+    id: 12,
     title: "Particle Cosmos",
     desc: "Gesture-controlled 3D particle visualizer where real-time hand movements via webcam shape dynamic visuals using Three.js and MediaPipe.",
     image: ParticleCosmosImg,
@@ -121,7 +132,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 12,
+    id: 13,
     title: "Sorry I Cant Afford Flowers",
     desc: "Who needs a real bouquet when you can grow a garden in your browser? Welcome to the most bloomin' marvelous repository on the web.",
     image: SorryICantAffordFlowers,
@@ -131,7 +142,7 @@ const ProjectData = [
     isNew: false
   },
   {
-    id: 13,
+    id: 14,
     title: "Movie Recommendation App",
     desc: "An interactive movie recommendation app where users can browse, search, and discover films with live updates, selectable posters, IMDb ratings, detailed views, and a responsive, engaging interface.",
     image: MovieRecommendationImg,
