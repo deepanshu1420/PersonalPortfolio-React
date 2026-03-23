@@ -105,7 +105,7 @@ const ProjectData = [
   {
     id: 10,
     title: "RajNeeti",
-    desc: "RajNeeti samjho, desh ko pehchano - An AI-powered civic intelligence dashboard built with React + Vite (UI), Framer Motion (animations), and Lucide Icons (visuals), simplifying Indian states, politics, and real-world issues using a dual Gemini API setup.",
+    desc: "RajNeeti samjho, desh ko pehchano - An AI powered civic intelligence dashboard built with React + Vite (UI), Framer Motion (animations), and Lucide Icons (visuals), simplifying Indian states, politics, and real-world issues using a dual Gemini API setup.",
     image: RajNeeti,
     github: "https://github.com/deepanshu1420/RajNeeti.git",
     live: "https://rajneeti.vercel.app/",
