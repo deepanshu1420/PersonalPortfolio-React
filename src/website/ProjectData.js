@@ -5,13 +5,13 @@ import CarRacingGameImg from "./ProjectImages/CarRacingGame.png";
 import NationsHubImg from "./ProjectImages/NationsHub.png";
 import NikeImg from "./ProjectImages/Nike.png";
 import GitHubProfileSearchImg from "./ProjectImages/GitHubProfileSearch.png";
-import MovieRecommendationImg from "./ProjectImages/MovieRecommendation.png";
 import jwtAuthenticationImg from "./ProjectImages/jwtAuthentication.png";
 import sjtravelsnextImg from "./ProjectImages/sjTravelsNextJS.png";
 import ParticleCosmosImg from "./ProjectImages/ParticleCosmos.png";
 import SorryICantAffordFlowers from "./ProjectImages/flower.png";
 import AISummarizer from "./ProjectImages/AISummarizer.png";
 import AstroLogicAI from "./ProjectImages/AstroLogicAI.png";
+import RajNeeti from "./ProjectImages/RajNeeti.png";
 
 const ProjectData = [
   {
@@ -24,7 +24,7 @@ const ProjectData = [
     skills: ["React.js", "JavaScript", "Socket.IO", "Gemini API Key", "Axios", "Vite", "ReactMarkdown", "UI/UX", "TailwindCSS"],
     isNew: true 
   },
-   {
+  {
     id: 2,
     title: "JSON Web Token Authentication",
     desc: "A MERN stack application implementing JWT-based authentication with bcrypt.js encryption and secure session handling, ensuring protected routes, real-time access control, and improved application security.",
@@ -51,7 +51,8 @@ const ProjectData = [
     image: InstagramCloneImg,
     github: "https://github.com/deepanshu1420/InstagramClone.git",
     live: "https://insta-clone-online.netlify.app/",
-    skills: ["React.js", "TypeScript", "Heroicons", "PostCSS", "Vite", "TailwindCSS", "UI/UX", "Instagram Meta", "React Icons"]
+    skills: ["React.js", "TypeScript", "Heroicons", "PostCSS", "Vite", "TailwindCSS", "UI/UX", "Instagram Meta", "React Icons"],
+    isNew: true
   },
   {
     id: 5,
@@ -103,16 +104,26 @@ const ProjectData = [
   },
   {
     id: 10,
+    title: "RajNeeti",
+    desc: "RajNeeti samjho, desh ko pehchano - An AI-powered civic intelligence dashboard built with React + Vite (UI), Framer Motion (animations), and Lucide Icons (visuals), simplifying Indian states, politics, and real-world issues using a dual Gemini API setup.",
+    image: RajNeeti,
+    github: "https://github.com/deepanshu1420/RajNeeti.git",
+    live: "https://rajneeti.vercel.app/",
+    skills: ["React + Vite", "Gemini API", "React DOM", "Tailwind CSS", "Framer Motion", "ESLint", "Lucide React", "React Markdown"],
+    isNew: true
+  },
+  {
+    id: 11,
     title: "AI Summarizer",
     desc: "This application uses an AI-powered tool to generate short summaries of long web articles using the RapidAPI Article Extractor and Summarizer with NLP models. It also supports light and dark mode for a better user experience.",
     image: AISummarizer,
     github: "https://github.com/deepanshu1420/AI-Summarizer.git",
     live: "https://aisummarizer-online.netlify.app/",
     skills: ["React.js", "Redux Toolkit (RTK Query)", "JavaScript", "Tailwind CSS", "Vite", "Rapid API", "API Handling", "HTML5"],
-    isNew: true
+    isNew: false
   },
   {
-    id: 11,
+    id: 12,
     title: "AstroLogic AI",
     desc: "AstroLogic AI is a full-stack astrology prediction platform that blends Vedic Astrology + Numerology (Moolank & Bhagyank) with modern AI to deliver personalized insights on personality, career, love, and growth.",
     image: AstroLogicAI,
@@ -122,7 +133,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 12,
+    id: 13,
     title: "Particle Cosmos",
     desc: "Gesture-controlled 3D particle visualizer where real-time hand movements via webcam shape dynamic visuals using Three.js and MediaPipe.",
     image: ParticleCosmosImg,
@@ -132,7 +143,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 13,
+    id: 14,
     title: "Sorry I Cant Afford Flowers",
     desc: "Who needs a real bouquet when you can grow a garden in your browser? Welcome to the most bloomin' marvelous repository on the web.",
     image: SorryICantAffordFlowers,
@@ -141,16 +152,6 @@ const ProjectData = [
     skills: ["Advanced CSS", "URL Parameter Handling", "HTML5", "DOM Manipulation", "UI/UX", "Vanilla JavaScript", "3D Transforms"],
     isNew: false
   },
-  {
-    id: 14,
-    title: "Movie Recommendation App",
-    desc: "An interactive movie recommendation app where users can browse, search, and discover films with live updates, selectable posters, IMDb ratings, detailed views, and a responsive, engaging interface.",
-    image: MovieRecommendationImg,
-    github: "https://github.com/deepanshu1420/MovieRecommendationApp.git",
-    live: "https://movierecommendationapp-online.netlify.app/",
-    skills: ["React.js", "Create React App", "JavaScript", "Axios", "React Router", "React Icons", "TMDB API", "TailwindCSS", "HTML5"],
-    isNew: false
-  }
 ];
 
 export default ProjectData;
