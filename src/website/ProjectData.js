@@ -61,7 +61,8 @@ const ProjectData = [
     image: CarRacingGameImg,
     github: "https://github.com/deepanshu1420/CarRacingGame.git",
     live: "https://deepanshu1420.github.io/CarRacingGame/",
-    skills: ["Asynchronous JavaScript", "Material UI","HTML5", "CSS3", "Game Development"]
+    skills: ["Asynchronous JavaScript", "Material UI","HTML5", "CSS3", "Game Development"],
+    isNew: false
   },
   {
     id: 6,
@@ -70,7 +71,7 @@ const ProjectData = [
     image: NationsHubImg,
     github: "https://github.com/deepanshu1420/Find-Nations-Hub-Info.git",
     live: "https://nationshub-online.netlify.app/",
-    skills: ["React.js", "JavaScript", "REST Countries API", "React Transition Group", "CSS3", "HTML5", ],
+    skills: ["React.js", "JavaScript", "REST Countries API", "React Transition Group", "CSS3", "HTML5"],
     isNew: true
   },
   {
@@ -100,7 +101,8 @@ const ProjectData = [
     image: GitHubProfileSearchImg,
     github: "https://github.com/deepanshu1420/GitHubProfileSearch.git",
     live: "https://githubprofilesearch-online.netlify.app/",
-    skills: ["React.js", "JavaScript", "GitHub REST API", "CSS3", "HTML5", "React Framer Motion"]
+    skills: ["React.js", "JavaScript", "GitHub REST API", "CSS3", "HTML5", "React Framer Motion"],
+    isNew: false
   },
   {
     id: 10,
@@ -109,7 +111,7 @@ const ProjectData = [
     image: RajNeeti,
     github: "https://github.com/deepanshu1420/RajNeeti.git",
     live: "https://rajneeti.vercel.app/",
-    skills: ["React + Vite", "Gemini API", "React DOM", "Tailwind CSS", "Framer Motion", "ESLint", "Lucide React", "React Markdown"],
+    skills: ["React + Vite", "Gemini API", "React DOM", "Tailwind CSS", "Framer Motion", "ESLint", "React Markdown", "Lucide React"],
     isNew: true
   },
   {
