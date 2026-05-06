@@ -56,7 +56,7 @@ Here are some previews of my portfolio to showcase its design and features:
 
 ### 🍴 Food Corner (Further Innovations)
 ![Further Innovations](./Screenshots/FurtherInnovations.png)  
-*Food Corner section with interactive food details, highlighting product rates, discounts, and engaging previews.*  
+*Food Corner section with interactive food details, highlighting product rates, discounts and engaging previews.*  
 
 ### 🌦 Weather App
 ![Weather App](./Screenshots/weatherApp.png)  
