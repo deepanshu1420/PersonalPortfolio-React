@@ -51,7 +51,7 @@ Here are some previews of my portfolio to showcase its design and features:
 *Projects overview displaying recent work with "New" badges.*  
 
 ### 📝 Project Card Previews
-![Project Card Previews](./Screenshots/ProjectCardPreviews.png)  
+![Project Card Previews](./Screenshots/ProjectCardPreviewss.png)  
 *Interactive project cards with modals, live links, and GitHub links.*  
 
 ### 🍴 Food Corner (Further Innovations)
