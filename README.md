@@ -68,7 +68,7 @@ Here are some previews of my portfolio to showcase its design and features:
 
 ## 🛠️ Setup and Installation
 
-Follow these steps to run the project locally on your machine.
+Follow these steps to run the project locally on your machine:
 
 ### 1️⃣ Clone the Repository
 
