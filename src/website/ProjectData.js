@@ -12,6 +12,7 @@ import SorryICantAffordFlowers from "./ProjectImages/flower.png";
 import AISummarizer from "./ProjectImages/AISummarizer.png";
 import AstroLogicAI from "./ProjectImages/AstroLogicAI.png";
 import RajNeeti from "./ProjectImages/RajNeeti.png";
+import YouTubeReplica from "./ProjectImages/YouTubeReplica.png";
 
 const ProjectData = [
   {
@@ -47,15 +48,25 @@ const ProjectData = [
   {
     id: 4,
     title: "Instagram Clone",
-    desc: "Instagram replica with real-time post creation, likes and comments, fully responsive on mobile and desktop, attention to visual details and typography, seamless light/dark theme toggle, powered by Meta.",
+    desc: "Instagram Clone with real-time post creation, likes and comments, fully responsive on mobile and desktop, attention to visual details and typography, seamless light/dark theme toggle, powered by Meta.",
     image: InstagramCloneImg,
     github: "https://github.com/deepanshu1420/InstagramClone.git",
     live: "https://insta-clone-online.netlify.app/",
-    skills: ["React.js", "TypeScript", "Heroicons", "PostCSS", "Vite", "TailwindCSS", "UI/UX", "Instagram Meta", "React Icons"],
+    skills: ["React.js", "TypeScript", "Heroicons", "PostCSS", "Vite", "TailwindCSS", "UI/UX", "Lucide React Icons", "Instagram Meta"],
     isNew: true
   },
   {
     id: 5,
+    title: "YouTube Replica",
+    desc: "YouTube Replica is a modern, high-performance frontend clone of the YouTube interface, built with React, TypeScript and Tailwind CSS, featuring responsive architecture, reusable components, adaptive theming and smooth interactive UI experiences.",
+    image: YouTubeReplica,
+    github: "https://github.com/deepanshu1420/YouTube-Replica.git",
+    live: "https://youtubereplicaa.vercel.app/",
+    skills: ["React.js", "TypeScript", "Tailwind CSS", "Node.js", "Lucide React Icons", "Vite", "UI/UX", "ESLint", "YouTube Meta"],
+    isNew: true
+  },
+  {
+    id: 6,
     title: "Car Racing Game",
     desc: "Driven by asynchronous logic and event-based controls, this racing simulator delivers adjustable speeds, fluid dynamics, responsive handling, real-time interactions, and immersive visuals.",
     image: CarRacingGameImg,
@@ -65,7 +76,7 @@ const ProjectData = [
     isNew: false
   },
   {
-    id: 6,
+    id: 7,
     title: "Nations Hub Info",
     desc: "Welcome to Nations Hub! Explore information about every country on Earth with our rich interactive experience. Discover stats, flags, and challenge yourself with geography games!",
     image: NationsHubImg,
@@ -75,7 +86,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 7,
+    id: 8,
     title: "sjTravels NextJS",
     desc: "A modern travel platform built with Next.js v15 and TypeScript, featuring responsive layouts, smooth animations, fast rendering, and SEO-optimized experiences for temple tours, homestays, and vehicle rentals.",
     image: sjtravelsnextImg,
@@ -85,7 +96,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 8,
+    id: 9,
     title: "Nike NextJS",
     desc: "Next.js-powered Nike site with responsive layouts, interactive hero sections, engaging product showcases, and animated testimonials in an advanced e-commerce front-end.",
     image: NikeImg,
@@ -95,7 +106,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 9,
+    id: 10,
     title: "GitHub Profile Search",
     desc: "The GitHub Profile Search App lets users instantly explore profiles, view bios, repositories, followers, and more, with real-time updates for an engaging experience.",
     image: GitHubProfileSearchImg,
@@ -105,7 +116,7 @@ const ProjectData = [
     isNew: false
   },
   {
-    id: 10,
+    id: 11,
     title: "RajNeeti",
     desc: "RajNeeti samjho, desh ko pehchano - An AI powered civic intelligence dashboard built with React + Vite (UI), Framer Motion (animations), and Lucide Icons (visuals), simplifying Indian states, politics, and real-world issues using a dual Gemini API setup.",
     image: RajNeeti,
@@ -115,7 +126,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 11,
+    id: 12,
     title: "AI Summarizer",
     desc: "This application uses an AI-powered tool to generate short summaries of long web articles using the RapidAPI Article Extractor and Summarizer with NLP models. It also supports light and dark mode for a better user experience.",
     image: AISummarizer,
@@ -125,7 +136,7 @@ const ProjectData = [
     isNew: false
   },
   {
-    id: 12,
+    id: 13,
     title: "AstroLogic AI",
     desc: "AstroLogic AI is a full-stack astrology prediction platform that blends Vedic Astrology + Numerology (Moolank & Bhagyank) with modern AI to deliver personalized insights on personality, career, love, and growth.",
     image: AstroLogicAI,
@@ -135,7 +146,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 13,
+    id: 14,
     title: "Particle Cosmos",
     desc: "Gesture-controlled 3D particle visualizer where real-time hand movements via webcam shape dynamic visuals using Three.js and MediaPipe.",
     image: ParticleCosmosImg,
@@ -145,7 +156,7 @@ const ProjectData = [
     isNew: true
   },
   {
-    id: 14,
+    id: 15,
     title: "Sorry I Cant Afford Flowers",
     desc: "Who needs a real bouquet when you can grow a garden in your browser? Welcome to the most bloomin' marvelous repository on the web.",
     image: SorryICantAffordFlowers,
