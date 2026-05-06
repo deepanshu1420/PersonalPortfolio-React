@@ -35,7 +35,7 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 - **✨ Interactive and engaging UI** with smooth transitions and animations.  
 - **📱 Accessible across all devices** with mobile-first responsive design.  
 - **⚛️ Easily customizable** thanks to modular React.js components.  
-- **🚀 Built for scalability**—new projects and sections can be added quickly.  
+- **🚀 Built for scalability** new projects and sections can be added quickly.  
 - **🔍 SEO-friendly structure** to improve discoverability.  
 - **⚡ Fast load times** through optimized assets and code splitting.  
 
