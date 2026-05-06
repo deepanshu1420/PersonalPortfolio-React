@@ -12,18 +12,18 @@
 [![CSS3](https://img.shields.io/badge/CSS3-blueviolet)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-**A modern, responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP, and CSS3/HTML5 - delivering scalability, interactivity, and a seamless user experience.**    
+**A modern, responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP and CSS3/HTML5 - delivering scalability, interactivity and a seamless user experience.**    
 &nbsp;  
 🌐 **[Click to Know About Me!](https://personalportfolio-online.netlify.app/)**  
 
 ## 🌟 Overview
-This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights, and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance, and immersive user engagement.  
+This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance and immersive user engagement.  
 
 ## ⚡ Features & Highlights
-- **🎯 Project Showcase with Modals:** Interactive project cards that open a modal for a detailed view, including links to the live project and GitHub repository.  
+- **🎯 Project Showcase with Modals:** Interactive project cards with modal previews, live demo links and GitHub access.  
 - **🆕 New Badge for Recent Projects:** Keeps the portfolio fresh and highlights new work instantly.  
-- **📱 Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.  
-- **⚛️ React.js Components:** Modular, maintainable, and reusable UI components.  
+- **📱 Responsive Design:** Fully optimized for desktops, tablets and mobile devices.  
+- **⚛️ React.js Components:** Modular, maintainable and reusable UI components.  
 - **🌗 Dynamic Theme Switching:** Toggle between light and dark themes for a personalized viewing experience.  
 - **🖱️ Custom Cursor Tracker:** An interactive cursor enhances the user experience.  
 - **📖 Read More/Less for Project Descriptions:** Expand or collapse project descriptions to keep the layout clean.  
@@ -66,17 +66,37 @@ Here are some previews of my portfolio to showcase its design and features:
 ![Todo App](./Screenshots/TodoApp.png)  
 *A todo app featuring add, delete, and **edit** functionality for tasks.*  
 
-## 🛠 Installation
+## 🛠️ Setup and Installation
+
+Follow these steps to run the project locally on your machine.
+
+### 1️⃣ Clone the Repository
 
 ```bash
-# Clone the repository
 git clone https://github.com/deepanshu1420/PersonalPortfolio-React.git
-
-# Navigate to the project folder
 cd PersonalPortfolio-React
+```
 
-# Install dependencies
+### 2️⃣ Install Dependencies
+
+Make sure you have **Node.js** installed, then run:
+
+```bash
 npm install
+```
 
-# Start the development server
+### 3️⃣ Start Development Server
+
+```bash
 npm start
+```
+
+### 4️⃣ Open the Application
+
+Open your browser and visit:
+
+```bash
+http://localhost:3000
+```
+
+The app should now be running locally 🚀
