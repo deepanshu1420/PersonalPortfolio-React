@@ -20,24 +20,24 @@
 This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights, and a dynamic contact hub within a streamlined, responsive interface — architected for scalability, performance, and immersive user engagement.  
 
 ## ⚡ Features & Highlights
-- **Project Showcase with Modals:** Interactive project cards that open a modal for a detailed view, including links to the live project and GitHub repository.  
-- **New Badge for Recent Projects:** Keeps the portfolio fresh and highlights new work instantly.  
-- **Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.  
-- **React.js Components:** Modular, maintainable, and reusable UI components.  
-- **Dynamic Theme Switching:** Toggle between light and dark themes for a personalized viewing experience.  
-- **Custom Cursor Tracker:** An interactive cursor enhances the user experience.  
-- **Read More/Less for Project Descriptions:** Expand or collapse project descriptions to keep the layout clean.  
-- **Smooth Animations:** GSAP-powered animations for engaging transitions and interactions.  
-- **Performance Optimized:** Lazy loading and efficient asset handling for faster load times.  
+- **🎯 Project Showcase with Modals:** Interactive project cards that open a modal for a detailed view, including links to the live project and GitHub repository.  
+- **🆕 New Badge for Recent Projects:** Keeps the portfolio fresh and highlights new work instantly.  
+- **📱 Responsive Design:** Fully optimized for desktops, tablets, and mobile devices.  
+- **⚛️ React.js Components:** Modular, maintainable, and reusable UI components.  
+- **🌗 Dynamic Theme Switching:** Toggle between light and dark themes for a personalized viewing experience.  
+- **🖱️ Custom Cursor Tracker:** An interactive cursor enhances the user experience.  
+- **📖 Read More/Less for Project Descriptions:** Expand or collapse project descriptions to keep the layout clean.  
+- **✨ Smooth Animations:** GSAP-powered animations for engaging transitions and interactions.  
+- **🚀 Performance Optimized:** Lazy loading and efficient asset handling for faster load times.  
 
 ## ✅ Advantages
-- Creates a **professional online presence** to showcase skills and projects.  
-- **Interactive and engaging UI** with smooth transitions and animations.  
-- **Accessible across all devices** with mobile-first responsive design.  
-- **Easily customizable** thanks to modular React.js components.  
-- **Built for scalability**—new projects and sections can be added quickly.  
-- **SEO-friendly structure** to improve discoverability.  
-- **Fast load times** through optimized assets and code splitting.  
+- 💼 Creates a **professional online presence** to showcase skills and projects.  
+- **✨ Interactive and engaging UI** with smooth transitions and animations.  
+- **📱 Accessible across all devices** with mobile-first responsive design.  
+- **⚛️ Easily customizable** thanks to modular React.js components.  
+- **🚀 Built for scalability**—new projects and sections can be added quickly.  
+- **🔍 SEO-friendly structure** to improve discoverability.  
+- **⚡ Fast load times** through optimized assets and code splitting.  
 
 ## 📷 Screenshots / Demo
 Here are some previews of my portfolio to showcase its design and features:  
