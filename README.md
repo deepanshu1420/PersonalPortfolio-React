@@ -70,7 +70,7 @@ Here are some previews of my portfolio to showcase its design and features:
 
 ```bash
 # Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/deepanshu1420/PersonalPortfolio-React.git
 
 # Navigate to the project folder
 cd PersonalPortfolio-React
