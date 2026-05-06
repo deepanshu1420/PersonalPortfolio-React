@@ -16,12 +16,8 @@
 &nbsp;  
 🌐 **[Click to Know About Me](https://personalportfolio-online.netlify.app/)**  
 
----
-
 ## 🌟 Overview
 This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights, and a dynamic contact hub within a streamlined, responsive interface — architected for scalability, performance, and immersive user engagement.  
-
----
 
 ## ⚡ Features & Highlights
 - **Project Showcase with Modals:** Interactive project cards that open a modal for a detailed view, including links to the live project and GitHub repository.  
@@ -34,8 +30,6 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 - **Smooth Animations:** GSAP-powered animations for engaging transitions and interactions.  
 - **Performance Optimized:** Lazy loading and efficient asset handling for faster load times.  
 
----
-
 ## ✅ Advantages
 - Creates a **professional online presence** to showcase skills and projects.  
 - **Interactive and engaging UI** with smooth transitions and animations.  
@@ -44,8 +38,6 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 - **Built for scalability**—new projects and sections can be added quickly.  
 - **SEO-friendly structure** to improve discoverability.  
 - **Fast load times** through optimized assets and code splitting.  
-
----
 
 ## 📷 Screenshots / Demo
 Here are some previews of my portfolio to showcase its design and features:  
@@ -73,8 +65,6 @@ Here are some previews of my portfolio to showcase its design and features:
 ### 📋 Todo App
 ![Todo App](./Screenshots/TodoApp.png)  
 *A todo app featuring add, delete, and **edit** functionality for tasks.*  
-
----
 
 ## 🛠 Installation
 
