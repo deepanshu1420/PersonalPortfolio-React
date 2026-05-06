@@ -17,7 +17,7 @@
 🌐 **[Click to Know About Me!](https://personalportfolio-online.netlify.app/)**  
 
 ## 🌟 Overview
-This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights, and a dynamic contact hub within a streamlined, responsive interface — architected for scalability, performance, and immersive user engagement.  
+This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights, and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance, and immersive user engagement.  
 
 ## ⚡ Features & Highlights
 - **🎯 Project Showcase with Modals:** Interactive project cards that open a modal for a detailed view, including links to the live project and GitHub repository.  
