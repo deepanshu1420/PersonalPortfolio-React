@@ -67,6 +67,19 @@ Here are some previews of my portfolio to showcase its design and features:
 ![Todo App](./Screenshots/TodoApp.png)  
 *A todo app featuring add, delete and **edit** functionality for tasks.*  
 
+## ⚙️ Tech Stack Used
+
+- ⚛️ Frontend Framework: React.js  
+- 💻 Programming Language: JavaScript (ES6)  
+- 🎨 Markup & Styling: HTML5, CSS3  
+- 📱 Responsive Design: Bootstrap v5.3  
+- ✨ Animations & Transitions: GSAP v3.12, @gsap/react  
+- ⌨️ Typing Effects: Typed.js, React Type Animation  
+- 🎯 Icons Library: React Icons  
+- 🧭 Routing & Navigation: React Router DOM  
+- 📧 Email Integration: EmailJS  
+- 🚀 Deployment & Hosting: Netlify
+
 ## 🛠️ Setup and Installation
 
 Follow these steps to run the project locally on your machine:
