@@ -682,7 +682,7 @@ body.dark .form-control::-ms-input-placeholder {
 /* ---------- Footer & social icons ---------- */
 .site-footer {
   margin-top: -2.2rem;         /* pushed further down */
-  padding: 2.5rem 0 1rem 0; /* more breathing room */
+  padding: 2.5rem 0 1rem 0;    /* more breathing room */
   background: transparent;
   color: var(--text-color);
 }
@@ -691,7 +691,7 @@ body.dark .form-control::-ms-input-placeholder {
 .site-footer .social-icons {
   display: flex;
   justify-content: center;
-  gap: 1rem;               /* more spacing between icons */
+  gap: 1.2rem;               /* more spacing between icons */
   margin-bottom: 1rem;
   
 }
@@ -699,8 +699,8 @@ body.dark .form-control::-ms-input-placeholder {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 41px;
-  height: 41px;
+  width: 37px;
+  height: 37px;
   border-radius: 50%;
   border: 1px solid rgba(52,172,224,0.08);
   color: var(--text-color);
