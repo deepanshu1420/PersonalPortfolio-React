@@ -52,7 +52,7 @@ Here are some previews of my portfolio to showcase its design and features:
 
 ### 📝 Project Card Previews
 ![Project Card Previews](./Screenshots/ProjectCardPreviewss.png)  
-*Interactive project cards with modals, live links, and GitHub links.*  
+*Interactive project cards with modals, live links and GitHub links.*  
 
 ### 🍴 Food Corner (Further Innovations)
 ![Further Innovations](./Screenshots/FurtherInnovations.png)  
@@ -64,7 +64,7 @@ Here are some previews of my portfolio to showcase its design and features:
 
 ### 📋 Todo App
 ![Todo App](./Screenshots/TodoApp.png)  
-*A todo app featuring add, delete, and **edit** functionality for tasks.*  
+*A todo app featuring add, delete and **edit** functionality for tasks.*  
 
 ## 🛠️ Setup and Installation
 
