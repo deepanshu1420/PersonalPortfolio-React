@@ -20,7 +20,7 @@
 This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance and immersive user engagement.  
 
 ## ⚡ Features & Highlights
-- **🎯 Project Showcase with Modals:** Project cards with modal previews, live demos and GitHub links.
+- **🎯 Project Showcase with Modals:** Immersive project cards with previews, live demos and GitHub links.
 - **🆕 New Badge for Recent Projects:** Keeps the portfolio fresh and highlights new work instantly.  
 - **📱 Responsive Design:** Fully optimized for desktops, tablets and mobile devices.  
 - **⚛️ React.js Components:** Modular, maintainable and reusable UI components.  
