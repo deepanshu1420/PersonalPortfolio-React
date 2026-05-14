@@ -69,7 +69,7 @@ Here are some previews of my portfolio to showcase its design and features:
 
 ### 📱 Mobile View
 ![Mobile View](./Screenshots/MobileView.png)  
-**Fully responsive mobile layout optimized for seamless user experience across all devices.*
+*Fully responsive mobile layout optimized for seamless user experience across all devices.*
 
 ## ⚙️ Tech Stack Used
 
