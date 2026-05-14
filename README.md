@@ -67,6 +67,10 @@ Here are some previews of my portfolio to showcase its design and features:
 ![Todo App](./Screenshots/TodoApp.png)  
 *A todo app featuring add, delete and **edit** functionality for tasks.*  
 
+### 📱 Mobile View
+![Mobile View](./Screenshots/MobileView.png)  
+**Fully responsive mobile layout optimized for seamless user experience across all devices.*
+
 ## ⚙️ Tech Stack Used
 
 - ⚛️ Frontend Framework: React.js  
