@@ -87,8 +87,8 @@ Follow these steps to run the project locally on your machine:
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/deepanshu1420/PersonalPortfolio-React.git
-cd PersonalPortfolio-React
+git clone https://github.com/deepanshu1420/DeveloperPortfolio.git
+cd DeveloperPortfolio
 ```
 
 ### 2️⃣ Install Dependencies
