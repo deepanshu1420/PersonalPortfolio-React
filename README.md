@@ -14,7 +14,7 @@
 
 **A modern, responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP and CSS3/HTML5 - delivering scalability, interactivity and a seamless user experience.**    
 &nbsp;  
-🌐 **[Click to Know About Me!](https://personalportfolio-online.netlify.app/)**  
+🌐 **[Click to Know About Me!](https://deepanshusharmaa.vercel.app/)**  
 
 ## 🌟 Overview
 This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance and immersive user engagement.  
