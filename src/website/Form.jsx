@@ -15,12 +15,12 @@ const Form = () => {
         "aL2qeJhnClUu7Mlld"
     )
     .then(() => {
-        alert("Email Sent Successfully!");
+        alert("Message sent successfully!");
         e.target.reset();
     })
     .catch((error) => {
         console.log(error);
-        alert("Failed to send email!");
+        alert("Failed to send message!");
     });
 }
     return (
