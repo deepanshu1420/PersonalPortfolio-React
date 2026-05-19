@@ -21,7 +21,7 @@ const ProjectData = [
     desc: "Liquid glass iOS 26 inspired, AI Nexus is a Gemini-powered chat interface with real-time history, editable queries, one-tap copy, adaptive mobile layouts, and theme toggling in a clean, minimal UI.",
     image: AINexusImg,
     github: "https://github.com/deepanshu1420/AINexus-Powered-By-Gemini.git",
-    live: "https://ainexus-online.netlify.app/",
+    live: "https://ainexuspro.vercel.app/",
     skills: ["React.js", "JavaScript", "Socket.IO", "Gemini API Key", "Axios", "Vite", "ReactMarkdown", "UI/UX", "TailwindCSS"],
     isNew: true 
   },
@@ -101,7 +101,7 @@ const ProjectData = [
     desc: "Next.js-powered Nike site with responsive layouts, interactive hero sections, engaging product showcases, and animated testimonials in an advanced e-commerce front-end.",
     image: NikeImg,
     github: "https://github.com/deepanshu1420/Nike-Website-NextJS.git",
-    live: "https://nike-nextjs.netlify.app/",
+    live: "https://nikee-nextjs.vercel.app/",
     skills: ["Next.js", "React.js", "JavaScript", "Node.js", "TailwindCSS", "Git", "Heroicons", "UI/UX"],
     isNew: true
   },
@@ -111,7 +111,7 @@ const ProjectData = [
     desc: "The GitHub Profile Search App lets users instantly explore profiles, view bios, repositories, followers, and more, with real-time updates for an engaging experience.",
     image: GitHubProfileSearchImg,
     github: "https://github.com/deepanshu1420/GitHubProfileSearch.git",
-    live: "https://githubprofilesearch-online.netlify.app/",
+    live: "https://githubprofile-search.vercel.app/",
     skills: ["React.js", "JavaScript", "GitHub REST API", "CSS3", "HTML5", "React Framer Motion"],
     isNew: false
   },
