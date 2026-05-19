@@ -117,4 +117,4 @@ Open your browser and visit:
 http://localhost:3000
 ```
 
-The app should now be running locally 🚀
+The app should now be running locally! 🚀
