@@ -82,7 +82,7 @@ Here are some previews of my portfolio to showcase its design and features:
 - 🎯 Icons Library: React Icons  
 - 🧭 Routing & Navigation: React Router DOM  
 - 📧 Email Integration: EmailJS  
-- 🚀 Deployment & Hosting: Netlify
+- 🚀 Deployment & Hosting: Vercel
 
 ## 🛠️ Setup and Installation
 
