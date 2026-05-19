@@ -19,7 +19,7 @@ function Navbar() {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ["Developer", "Writer", "Programmer", "Coder", "Player"],
+            strings: ["Developer", "Writer", "Innovator", "Coder", "Player"],
             typeSpeed: 50,
             loop: true,
             loopCount: Infinity,
