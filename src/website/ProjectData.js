@@ -131,7 +131,7 @@ const ProjectData = [
     desc: "This application uses an AI-powered tool to generate short summaries of long web articles using the RapidAPI Article Extractor and Summarizer with NLP models. It also supports light and dark mode for a better user experience.",
     image: AISummarizer,
     github: "https://github.com/deepanshu1420/AI-Summarizer.git",
-    live: "https://aisummarizer-online.netlify.app/",
+    live: "https://aisummarizerpro.vercel.app/",
     skills: ["React.js", "Redux Toolkit (RTK Query)", "JavaScript", "Tailwind CSS", "Vite", "Rapid API", "API Handling", "HTML5"],
     isNew: false
   },
