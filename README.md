@@ -12,7 +12,7 @@
 [![CSS3](https://img.shields.io/badge/CSS3-blueviolet)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-A modern, responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP and CSS3/HTML5 - delivering scalability, interactivity and a seamless user experience.   
+A modern responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP and CSS3/HTML5 - delivering scalability, interactivity and a seamless user experience.   
  
 **🌐 Want to Know More About Me :** [Click Here!](https://deepanshusharmaa.vercel.app/)
 
@@ -41,7 +41,7 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 - **⚡ Fast load times** through optimized assets and code splitting.  
 
 ## 📷 Screenshots / Demo
-Here are some previews of my portfolio to showcase its design and features:  
+> Here are some previews of my portfolio to showcase its design and features:  
 
 ### 🏠 Home Page
 ![Home Page](./Screenshots/Homee.png)  
@@ -86,7 +86,7 @@ Here are some previews of my portfolio to showcase its design and features:
 
 ## 🛠️ Setup and Installation
 
-Follow these steps to run the project locally on your machine:
+> To set up and run the project locally, follow these steps below:
 
 ### 1️⃣ Clone the Repository
 
