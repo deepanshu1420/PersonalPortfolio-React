@@ -10,9 +10,10 @@
 [![React Router](https://img.shields.io/badge/React%20Router-v6.14-red)](https://reactrouter.com/en/main) 
 [![HTML5](https://img.shields.io/badge/HTML5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
 [![CSS3](https://img.shields.io/badge/CSS3-blueviolet)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-059669?logo=vercel&logoColor=white)](https://vercel.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-A modern responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP and CSS3/HTML5 - delivering scalability, interactivity and a seamless user experience.   
+A modern responsive `developer's portfolio` built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP and CSS3/HTML5 - delivering scalability, interactivity and a seamless user experience.   
  
 **🌐 Want to Know More About Me :** [Click Here!](https://deepanshusharmaa.vercel.app/)
 
