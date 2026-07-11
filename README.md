@@ -14,7 +14,7 @@
 
 A modern, responsive developer's portfolio built with React.js, JavaScript (ES6), Bootstrap, React Router, GSAP and CSS3/HTML5 - delivering scalability, interactivity and a seamless user experience.   
  
-**🌐 Want to Know More About Me :** [Click Here](https://deepanshusharmaa.vercel.app/)**
+**🌐 Want to Know More About Me :** [Click Here!](https://deepanshusharmaa.vercel.app/)
 
 ## 🌟 Overview
 This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance and immersive user engagement.  
