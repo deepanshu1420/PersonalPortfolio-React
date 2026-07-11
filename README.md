@@ -50,7 +50,7 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 
 ### 📂 Projects Section
 ![Projects Section](./Screenshots/Projectss.png)  
-*Projects overview displaying recent work with "New" badges.*  
+*Projects overview displaying recent work with `New` badges.*  
 
 ### 📝 Project Card Previews
 ![Project Card Previews](./Screenshots/ProjectCardPreviewss.png)  
@@ -66,7 +66,7 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 
 ### 📋 Todo App
 ![Todo App](./Screenshots/TodoApp.png)  
-*A todo app featuring add, delete and **edit** functionality for tasks.*  
+*A todo app featuring add, delete and `edit` functionality for tasks.*  
 
 ### 📱 Mobile View
 ![Mobile View](./Screenshots/MobileView.png)  
