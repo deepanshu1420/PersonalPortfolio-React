@@ -42,7 +42,7 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 - **⚡ Fast load times** through optimized assets and code splitting.  
 
 ## 📷 Screenshots / Demo
-> Here are some previews of my portfolio to showcase its design and features:  
+> Here are some previews of my portfolio to showcase its design and features.  
 
 ### 🏠 Home Page
 ![Home Page](./Screenshots/Homee.png)  
@@ -93,29 +93,32 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 
 ```bash
 git clone https://github.com/deepanshu1420/DeveloperPortfolio.git
+```
+
+### 2️⃣ Navigate to the project directory
+
+```bash
 cd DeveloperPortfolio
 ```
 
-### 2️⃣ Install Dependencies
+### 3️⃣ Install the required dependencies
 
-Make sure you have **Node.js** installed, then run:
+Make sure you have `Node.js` installed, then run:
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Start Development Server
+### 4️⃣ Start the development server
 
 ```bash
 npm start
 ```
 
-### 4️⃣ Open the Application
+✅ **That's it!** The project should now be running locally at:
 
-Open your browser and visit:
-
-```bash
+```text
 http://localhost:3000
 ```
 
-The app should now be running locally! 🚀
+Open the URL in your browser and explore my journey as a `Software Developer`. ☄️
