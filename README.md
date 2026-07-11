@@ -36,7 +36,7 @@ This portfolio consolidates an interactive project showcase, detailed skillset v
 - **✨ Interactive and engaging UI** with smooth transitions and animations.  
 - **📱 Accessible across all devices** with mobile-first responsive design.  
 - **⚛️ Easily customizable** thanks to modular React.js components.  
-- **📧 Smart Email Integration** with seamless contact form messaging powered by EmailJS.
+- **📧 Smart email integration** with seamless contact form messaging powered by EmailJS.
 - **🚀 Built for scalability** with effortless expansion for new projects and sections. 
 - **🔍 SEO-friendly structure** to improve discoverability.  
 - **⚡ Fast load times** through optimized assets and code splitting.  
