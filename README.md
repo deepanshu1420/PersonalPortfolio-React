@@ -10,6 +10,7 @@
 [![React Router](https://img.shields.io/badge/React%20Router-v6.14-red)](https://reactrouter.com/en/main) 
 [![HTML5](https://img.shields.io/badge/HTML5-orange)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
 [![CSS3](https://img.shields.io/badge/CSS3-blueviolet)](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+[![Git](https://img.shields.io/badge/Git-v2.50-saddlebrown?logo=git&logoColor=white)](https://git-scm.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-Deployed-059669?logo=vercel&logoColor=white)](https://vercel.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
