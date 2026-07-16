@@ -55,11 +55,11 @@ This portfolio consolidates an interactive project showcase, `detailed skillset 
 
 ### 📝 Project Card Previews
 ![Project Card Previews](./Screenshots/ProjectCardPreviewss.png)  
-*Interactive project cards with modals, live links and GitHub links.*  
+*Interactive project cards with modals, `live links` and GitHub links.*  
 
 ### 🍴 Food Corner (Further Innovations)
 ![Further Innovations](./Screenshots/FurtherInnovations.png)  
-*Food Corner section with interactive food details, highlighting product rates, discounts and engaging previews.*  
+*`Food Corner section` with interactive food details, highlighting product rates, discounts and engaging previews.*  
 
 ### 🌦 Weather App
 ![Weather App](./Screenshots/weatherApp.png)  
@@ -71,7 +71,7 @@ This portfolio consolidates an interactive project showcase, `detailed skillset 
 
 ### 📱 Mobile View
 ![Mobile View](./Screenshots/MobileView.png)  
-*Fully responsive mobile layout optimized for seamless user experience across all devices.*
+*Fully `responsive mobile layout` optimized for seamless user experience across all devices.*
 
 ## ⚙️ Tech Stack Used
 
@@ -84,7 +84,8 @@ This portfolio consolidates an interactive project showcase, `detailed skillset 
 - 🎯 Icons Library: React Icons  
 - 🧭 Routing & Navigation: React Router DOM  
 - 📧 Email Integration: EmailJS  
-- 🚀 Deployment & Hosting: Vercel
+- 🌿 Version Control: Git & GitHub
+- 🔗 Deployment & Hosting: Vercel
 
 ## 🛠️ Setup and Installation
 
@@ -104,7 +105,7 @@ cd DeveloperPortfolio
 
 ### 3️⃣ Install the required dependencies
 
-Make sure you have `Node.js` installed, then run:
+> Make sure you have `Node.js` installed, then run:
 
 ```bash
 npm install
