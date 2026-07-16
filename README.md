@@ -47,7 +47,7 @@ This portfolio consolidates an interactive project showcase, `detailed skillset 
 
 ### 🏠 Home Page
 ![Home Page](./Screenshots/Homee.png)  
-*Clean and modern landing page introducing me and my portfolio.*  
+*Clean and `modern landing page` introducing me and my portfolio.*  
 
 ### 📂 Projects Section
 ![Projects Section](./Screenshots/Projectss.png)  
@@ -63,7 +63,7 @@ This portfolio consolidates an interactive project showcase, `detailed skillset 
 
 ### 🌦 Weather App
 ![Weather App](./Screenshots/weatherApp.png)  
-*A weather app built with real-time API integration and responsive design.*  
+*A weather app built with real-time `API integration` and responsive design.*  
 
 ### 📋 Todo App
 ![Todo App](./Screenshots/TodoApp.png)  
