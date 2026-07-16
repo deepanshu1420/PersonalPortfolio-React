@@ -18,7 +18,7 @@ A modern responsive `developer's portfolio` built with React.js, JavaScript (ES6
 **🌐 Want to know more about me :** [Click Here!](https://deepanshusharmaa.vercel.app/)
 
 ## 🌟 Overview
-This portfolio consolidates an interactive project showcase, detailed skillset visualization, personal profile insights and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance and immersive user engagement.  
+This portfolio consolidates an interactive project showcase, `detailed skillset visualization`, personal profile insights and a dynamic contact hub within a streamlined, responsive interface - architected for scalability, performance and immersive user engagement.  
 
 ## ⚡ Features & Highlights
 - **🎯 Project Showcase with Modals:** Immersive project cards with previews, live demos and GitHub links.
