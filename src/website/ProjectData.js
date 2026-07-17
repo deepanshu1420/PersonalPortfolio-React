@@ -18,7 +18,7 @@ const ProjectData = [
   {
     id: 1,
     title: "AI Nexus (Powered By Gemini)",
-    desc: "Liquid glass iOS 26 inspired, AI Nexus is a Gemini-powered chat interface with real-time history, editable queries, one-tap copy, adaptive mobile layouts, and theme toggling in a clean, minimal UI.",
+    desc: "Liquid Glass iOS 26 inspired, AI Nexus is a Gemini-powered, real-time neural assistant and therapist featuring chat history, editable queries, one-tap copy, adaptive mobile layouts, and theme toggling in a clean, minimal UI.",
     image: AINexusImg,
     github: "https://github.com/deepanshu1420/AINexus-Powered-By-Gemini.git",
     live: "https://ainexuspro.vercel.app/",
