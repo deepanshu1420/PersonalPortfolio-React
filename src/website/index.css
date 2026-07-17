@@ -866,7 +866,7 @@ body.dark .form-control::-ms-input-placeholder {
     .item-detail .detail-new-item {
         top: 10px;
         right: 14px;
-        font-size: 0.55rem;
+        font-size: 0.6rem;
         padding: 0.39rem 0.47rem;
     }
 }
