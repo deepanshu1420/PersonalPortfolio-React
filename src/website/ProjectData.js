@@ -3,7 +3,7 @@ import DeeMusicImg from "./ProjectImages/DeeMusic.png";
 import InstagramCloneImg from "./ProjectImages/InstagramClone.png";
 import CarRacingGameImg from "./ProjectImages/CarRacingGame.png";
 import NationsHubImg from "./ProjectImages/NationsHub.png";
-import NikeImg from "./ProjectImages/Nike.png";
+import NikeImg from "./ProjectImages/NikeWebApp.png";
 import GitHubProfileSearchImg from "./ProjectImages/GitHubProfileSearch.png";
 import jwtAuthenticationImg from "./ProjectImages/jwtAuthentication.png";
 import sjtravelsnextImg from "./ProjectImages/sjTravelsNextJS.png";
@@ -97,12 +97,12 @@ const ProjectData = [
   },
   {
     id: 9,
-    title: "Nike NextJS",
-    desc: "Next.js-powered Nike site with responsive layouts, interactive hero sections, engaging product showcases, and animated testimonials in an advanced e-commerce front-end.",
+    title: "Nike Web App",
+    desc: "React and Vite-powered Nike web application with responsive layouts, interactive hero sections, engaging product showcases, and animated testimonials in an advanced e-commerce front-end.",
     image: NikeImg,
-    github: "https://github.com/deepanshu1420/Nike-Website-NextJS.git",
-    live: "https://nikee-nextjs.vercel.app/",
-    skills: ["Next.js", "React.js", "JavaScript", "Node.js", "TailwindCSS", "Git", "Heroicons", "UI/UX"],
+    github: "https://github.com/deepanshu1420/NikeWebApp.git",
+    live: "https://nikegallery.vercel.app/",
+    skills: ["React.js", "Framer Motion", "JavaScript", "Heroicons", "PostCSS", "TailwindCSS", "Vite", "Autoprefixer", "ESLint", "UI/UX"],
     isNew: true
   },
   {
