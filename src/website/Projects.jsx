@@ -113,6 +113,11 @@ function Projects() {
                 >
                   &times;
                 </button>
+
+                {selectedProject.isNew && (
+                  <span className="new-badge">New</span>
+                )}
+
                 <div className="modal-img-wrap mb-3">
                   <img
                     src={selectedProject.image}
@@ -201,6 +206,16 @@ function Projects() {
         .new-badge:hover {
           transform: scale(1.2);
           background-color: #218838;
+        }
+
+        .modal-content .new-badge {
+          top: 25px;
+          left: 26px;
+          right: auto;
+          padding: 3px 13px;
+          font-size: 0.9rem;
+          font-weight: 700;
+          z-index: 1057;
         }
 
         .img-box-food {
