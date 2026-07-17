@@ -218,6 +218,15 @@ function Projects() {
           z-index: 1057;
         }
 
+        @media (max-width: 576px) {
+          .modal-content .new-badge {
+            top: 24px;
+            left: 27px;
+            padding: 2px 7px;
+            font-size: 0.68rem;
+          }
+        }
+
         .img-box-food {
           width: 100%;
           overflow: hidden;
