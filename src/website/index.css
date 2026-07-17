@@ -861,3 +861,12 @@ body.dark .form-control::-ms-input-placeholder {
 
     box-shadow: none;   
 }
+
+@media (max-width: 768px) {
+    .item-detail .detail-new-item {
+        top: 11px;
+        right: 15px;
+        font-size: 0.7rem;
+        padding: 0.20rem 0.51rem;
+    }
+}
