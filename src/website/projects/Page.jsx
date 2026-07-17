@@ -21,7 +21,10 @@ function Page() {
                     <div className="col-12 col-xl-6 img-box p-3">
                         <img src={myData.imgSrc} className="img-fluid" alt={myData.title} />
                     </div>
-                    <div className="col-12 col-xl-6 text-box d-flex flex-column justify-content-center align-items-start py-4 py-lg-2 px-4">
+                    <div className="col-12 col-xl-6 text-box position-relative d-flex flex-column justify-content-center align-items-start py-4 py-lg-2 px-4">
+                        {myData.newArrival && (
+                            <span className="detail-new-item">NEW</span>
+                        )}
                         <h1 className="fw-bolder fs-1 text-capitalize"><span>{myData.title}</span></h1>
                         <p className="fw-light sm-text">{myData.desc}</p>
                         

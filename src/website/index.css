@@ -840,19 +840,24 @@ body.dark .form-control::-ms-input-placeholder {
   }
 }
 
+/* ===== Product Details NEW Badge ===== */
 
+.item-detail .detail-new-item {
+    position: absolute;
+    top: 16px;
+    right: 17px;
+    z-index: 10;
 
+    background-color: var(--primary-green);
+    color: var(--white) !important;
 
+    padding: 0.31rem 0.68rem;
+    border-radius: 100px;
 
+    font-size: 0.7rem;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
 
-
-
-
-
-
-
-
-
-
-
-
+    box-shadow: none;   
+}
