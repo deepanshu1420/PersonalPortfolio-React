@@ -864,9 +864,9 @@ body.dark .form-control::-ms-input-placeholder {
 
 @media (max-width: 768px) {
     .item-detail .detail-new-item {
-        top: 11px;
-        right: 15px;
-        font-size: 0.7rem;
-        padding: 0.20rem 0.51rem;
+        top: 10px;
+        right: 14px;
+        font-size: 0.55rem;
+        padding: 0.31rem 0.57rem;
     }
 }
