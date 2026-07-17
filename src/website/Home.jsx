@@ -6,7 +6,8 @@ import { NavLink } from 'react-router-dom';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 // ✅ IMPORT THE ICONS
-import { FaPaperPlane, FaCloudSun, FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaPaperPlane, FaCloudSun, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import { SiLeetcode } from 'react-icons/si';
 import Typed from 'typed.js';
 
@@ -115,7 +116,7 @@ const Home = () => {
                         <a href="mailto:deepanshusharma1420@gmail.com" target="_blank" rel="noreferrer" aria-label="Gmail"><FaEnvelope /></a>
                         <a href="https://github.com/deepanshu1420" target="_blank" rel="noreferrer" aria-label="GitHub"><FaGithub /></a>
                         <a href="https://www.linkedin.com/in/deepanshu-sharma12/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
-                        <a href="https://x.com/deepanshushh" target="_blank" rel="noreferrer" aria-label="Twitter"><FaTwitter /></a>
+                        <a href="https://x.com/deepanshushh" target="_blank" rel="noreferrer" aria-label="X"><FaXTwitter /></a>
                         <a href="https://leetcode.com/u/deepanshu_999/" target="_blank" rel="noreferrer" aria-label="LeetCode"><SiLeetcode /></a>
                     </div>
                     <p className="copyright">© 2026 Deepanshu Sharma. All rights reserved.</p>
