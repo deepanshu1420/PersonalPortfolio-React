@@ -31,7 +31,7 @@ const ProjectData = [
     desc: "A MERN stack application implementing JWT-based authentication with bcrypt.js encryption and secure session handling, ensuring protected routes, real-time access control, and improved application security.",
     image: jwtAuthenticationImg,
     github: "https://github.com/deepanshu1420/jwtAuthentication.git",
-    live: "https://jwtauth-secure.vercel.app/",
+    live: "https://jwtauthsecure.vercel.app/",
     skills: ["MERN Stack", "JavaScript", "MongoDB", "Node.js", "Express.js", "Handlebars.js", "Bcrypt.js", "Nodemon", "JWT Tokens"],
     isNew: false 
   },
