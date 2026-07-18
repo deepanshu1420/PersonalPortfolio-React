@@ -101,7 +101,7 @@ const ProjectData = [
     desc: "React and Vite-powered Nike web application with responsive layouts, interactive hero sections, engaging product showcases, and animated testimonials in an advanced e-commerce front-end.",
     image: NikeImg,
     github: "https://github.com/deepanshu1420/NikeWebApp.git",
-    live: "https://nikegallery.vercel.app/",
+    live: "https://nikewebclone.vercel.app/",
     skills: ["React.js", "Framer Motion", "JavaScript", "Heroicons", "PostCSS", "TailwindCSS", "Vite", "Autoprefixer", "ESLint", "UI/UX"],
     isNew: true
   },
