@@ -28,7 +28,7 @@ const ProjectData = [
   {
     id: 2,
     title: "JSON Web Token Authentication",
-    desc: "A MERN stack application featuring JWT-based authentication with bcrypt.js password hashing, HS256 token signing, secure cookie-based session handling, and protected routes, ensuring real-time access control, token integrity, and enhanced account security.",
+    desc: "A MERN stack application featuring JWT-based authentication with bcrypt.js password hashing, HS256 token signing, secure cookie-based sessions, and protected routes, ensuring real-time access control, token integrity, and account security.",
     image: jwtAuthenticationImg,
     github: "https://github.com/deepanshu1420/jwtAuthentication.git",
     live: "https://jwtauthsecure.vercel.app/",
