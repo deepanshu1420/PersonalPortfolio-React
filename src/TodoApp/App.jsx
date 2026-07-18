@@ -64,7 +64,7 @@ function App(){
     return(
         <>
             <header className="header container">
-                <h2 className="logo head semi-md-heading fw-700">Parth <span>Kapoor</span></h2>
+                <h2 className="logo head semi-md-heading fw-700">Deepanshu <span>Sharma</span></h2>
                 <DateAndTime/>
             </header>
             <h2 ref = {headRef} className='md-heading fw-500 text-center text-capitalize'>todo app</h2>

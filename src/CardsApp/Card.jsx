@@ -14,7 +14,7 @@ function Card({imgSrc , title , link , creator , desc}) {
                 <p className="desc small-text fw-300">{desc?.length > 100 ? `${desc.slice(0 , 101)}.....` : desc}</p>
                 <div className="creator">
                   <p className='small-text fw-300'>Creator : <span className='fw-600 small-text'>{creator}</span></p>
-                  <a href={link} target="_parth" className='text-capitalize fw-300'>explore</a>
+                  <a href={link} target="_deepanshu" className='text-capitalize fw-300'>explore</a>
                 </div>
             </div>
         </div>

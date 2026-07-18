@@ -34,7 +34,7 @@ const Form = () => {
                     <div className="col-12 col-md-10 col-lg-8">
                         <form onSubmit={submitData}>
                             <div className="mb-4">
-                                <label htmlFor="parth kapoor" className="form-label">Name</label>
+                                <label htmlFor="Deepanshu Sharma" className="form-label">Name</label>
                                 <input type="text" className="form-control" required id="Deepanshu Sharma" placeholder="Deepanshu Sharma" />
                             </div>
                             

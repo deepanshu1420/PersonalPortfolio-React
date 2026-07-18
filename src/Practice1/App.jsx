@@ -10,8 +10,8 @@ function App() {
     return (
         <>
             <FirstName.Provider value="Mr.">
-                <MiddleName.Provider value="Parth">
-                    <LastName.Provider value="Kapoor">
+                <MiddleName.Provider value="Deepanshu">
+                    <LastName.Provider value="Sharma">
                         <h1>hey Shiva ji the boss , {data}</h1>
                         <CompA />
                     </LastName.Provider>
