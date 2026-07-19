@@ -870,3 +870,16 @@ body.dark .form-control::-ms-input-placeholder {
         padding: 0.34rem 0.43rem;
     }
 }
+
+/* --- Project Cards & Modal Fix (Mobile Only) --- */
+@media (max-width: 768px) {
+  .project-card:hover {
+    transform: scale(1.03) !important;
+  }
+
+  .modal-dialog {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+    max-width: calc(100% - 1rem) !important;
+  }
+}
