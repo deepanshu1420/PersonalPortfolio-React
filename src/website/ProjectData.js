@@ -48,7 +48,7 @@ const ProjectData = [
   {
     id: 4,
     title: "Instagram Clone",
-    desc: "Instagram Clone with real-time post creation, likes and comments, fully responsive on mobile and desktop, attention to visual details and typography, seamless light/dark theme toggle, powered by Meta.",
+    desc: "Inspired by Instagram's official design language powered by Meta, featuring interactive like functionality, seamless dark/light theme toggle, and a clean, fully responsive UI with meticulous attention to visual details and typography.",
     image: InstagramCloneImg,
     github: "https://github.com/deepanshu1420/InstagramClone.git",
     live: "https://instawebclone.vercel.app/",
