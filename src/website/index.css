@@ -873,14 +873,8 @@ body.dark .form-control::-ms-input-placeholder {
 
 /* --- Project Cards & Modal Fix (Mobile Only) --- */
 @media (max-width: 768px) {
-
-  @media (hover: none) {
-    .project-card:hover {
-      transform: none !important;
-    }
-    .project-card:active {
-      animation: card-tap 0.4s ease forwards;
-    }
+  .project-card:hover {
+    transform: scale(1.03) !important;
   }
 
   .modal-dialog {
@@ -888,10 +882,4 @@ body.dark .form-control::-ms-input-placeholder {
     margin-right: 10px !important;
     max-width: calc(100% - 20px) !important;
   }
-}
-
-@keyframes card-tap {
-  0%   { transform: scale(1); }
-  40%  { transform: scale(1.03); }
-  100% { transform: scale(1); }
 }
