@@ -879,7 +879,7 @@ body.dark .form-control::-ms-input-placeholder {
       transform: none !important;
     }
     .project-card:active {
-      transform: scale(1.03) !important;
+      animation: card-tap 0.4s ease forwards;
     }
   }
 
@@ -888,4 +888,10 @@ body.dark .form-control::-ms-input-placeholder {
     margin-right: 10px !important;
     max-width: calc(100% - 20px) !important;
   }
+}
+
+@keyframes card-tap {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.03); }
+  100% { transform: scale(1); }
 }
