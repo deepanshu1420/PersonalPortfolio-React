@@ -873,8 +873,14 @@ body.dark .form-control::-ms-input-placeholder {
 
 /* --- Project Cards & Modal Fix (Mobile Only) --- */
 @media (max-width: 768px) {
-  .project-card:hover {
-    transform: scale(1.03) !important;
+
+  @media (hover: none) {
+    .project-card:hover {
+      transform: none !important;
+    }
+    .project-card:active {
+      transform: scale(1.03) !important;
+    }
   }
 
   .modal-dialog {
